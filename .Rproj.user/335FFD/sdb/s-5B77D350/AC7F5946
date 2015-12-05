@@ -1,0 +1,17 @@
+{
+    "contents" : "load(\"C:/Users/sjaisong/Documents/GitHub/SKEP2db/SKEP2database.RData\")\n",
+    "created" : 1449317316829.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "216625773",
+    "id" : "AC7F5946",
+    "lastKnownWriteTime" : 1443085798,
+    "path" : "~/GitHub/SKEP2db/load_database.R",
+    "project_path" : "load_database.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

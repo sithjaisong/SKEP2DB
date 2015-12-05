@@ -1,6 +1,7 @@
+library(SYT.SKEP)
 # First login
 
-SKEPdb <- loginSKEP("sjaisong", "MovingProton793")
+SKEPdb <- loginSKEP("sjaisong", "MovingProton1")
 
 #### Form1 Data ####
 # 2. get Field Data
