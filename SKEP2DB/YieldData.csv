@@ -1,0 +1,524 @@
+"","id","season_id","date","country","contact_person","email","phone","user_id","field_num","village_name","district","province","latitude","longitude","farmer_name","field_area","id_w_harv","main_id","area","fresh_w","moisture"
+"1",1,6,"2015-08-17","ID","","j.villa@irri.org","",37,"x","d","x","ID-BA","8.6500","115.2167","v","1",NA,NA,NA,NA,NA
+"2",2,4,"2015-08-17","ID","","j.villa@irri.org","",37,"x","s","s","ID-BA","-8.409518","115.188919","x","1",NA,NA,NA,NA,NA
+"3",3,1,"2015-08-19","VN","","s.jaisong@irri.org","",4,"1","Minh Duc","Tu Ky","VN-61","20.4816","106.2334","Nguyen Thi Ngan","0.07",1,3,1,4.8,14.8
+"4",3,1,"2015-08-19","VN","","s.jaisong@irri.org","",4,"1","Minh Duc","Tu Ky","VN-61","20.4816","106.2334","Nguyen Thi Ngan","0.07",2,3,2,5.4,15.5
+"5",3,1,"2015-08-19","VN","","s.jaisong@irri.org","",4,"1","Minh Duc","Tu Ky","VN-61","20.4816","106.2334","Nguyen Thi Ngan","0.07",3,3,3,4.72,14.9
+"6",4,4,"2015-08-19","IN","","s.jaisong@irri.org","",4,"testS","Kumbakonum","Thanjavur","IN-TN","10.97","79.42","Ben Wu","5",4,4,1,12,12
+"7",4,4,"2015-08-19","IN","","s.jaisong@irri.org","",4,"testS","Kumbakonum","Thanjavur","IN-TN","10.97","79.42","Ben Wu","5",5,4,2,12,12
+"8",4,4,"2015-08-19","IN","","s.jaisong@irri.org","",4,"testS","Kumbakonum","Thanjavur","IN-TN","10.97","79.42","Ben Wu","5",6,4,3,12,12
+"9",5,5,"2015-08-19","IN","","ben.wu@syngenta.com","",34,"Test ","AAA","Kumbakonam","IN-TN","10.5559","79.2454","Ben Wu","5",NA,NA,NA,NA,NA
+"10",6,6,"2015-08-19","VN","","dinh_tuan.ha@syngenta.com","",36,"ddf","Kokkur-Kuddadam","Nagappattinam","VN-SG","10.5666","105.1324","S,udhradathi","2.5",NA,NA,NA,NA,NA
+"11",7,6,"2015-08-19","ID","","ridwan.mustofa@syngenta.com","",31,"Test","Wadas","Karawang","ID-JB","-6.302222222222222","107.71916666666667","Daman","0.5",7,7,1,6.3,16.9
+"12",7,6,"2015-08-19","ID","","ridwan.mustofa@syngenta.com","",31,"Test","Wadas","Karawang","ID-JB","-6.302222222222222","107.71916666666667","Daman","0.5",8,7,2,5.8,16.3
+"13",7,6,"2015-08-19","ID","","ridwan.mustofa@syngenta.com","",31,"Test","Wadas","Karawang","ID-JB","-6.302222222222222","107.71916666666667","Daman","0.5",9,7,3,5.4,16.8
+"14",8,5,"2015-08-19","VN","","minh_khoi.le@syngenta.com","",38,"Khoi","Minh Duc","Tu Ky","VN-61","20.46","106.45","Kumbalingam","3",NA,NA,NA,NA,NA
+"15",9,5,"2015-08-19","VN","","minh_khoi.le@syngenta.com","",38,"Khoi ","Minh Duc","Tu Ky","VN-61","20.793","106.384","Nguyen Thi Thoa","0.09",NA,NA,NA,NA,NA
+"16",10,5,"2015-08-19","VN","","minh_khoi.le@syngenta.com","",38,"Khoi ","Minh Duc","Tu Ky","VN-61","20.793","106.384","Nguyen Thi Thoa","0.09",10,10,1,4.4,15.3
+"17",10,5,"2015-08-19","VN","","minh_khoi.le@syngenta.com","",38,"Khoi ","Minh Duc","Tu Ky","VN-61","20.793","106.384","Nguyen Thi Thoa","0.09",11,10,2,4.1,15.4
+"18",10,5,"2015-08-19","VN","","minh_khoi.le@syngenta.com","",38,"Khoi ","Minh Duc","Tu Ky","VN-61","20.793","106.384","Nguyen Thi Thoa","0.09",12,10,3,4.3,14.5
+"19",11,5,"2015-08-19","VN","","minh_khoi.le@syngenta.com","",38,"Khoi ","Adutharai","Thanjavur","VN-61","20.46","16.45","Kumbalingam","3",13,11,1,3.5,16.7
+"20",11,5,"2015-08-19","VN","","minh_khoi.le@syngenta.com","",38,"Khoi ","Adutharai","Thanjavur","VN-61","20.46","16.45","Kumbalingam","3",14,11,2,4.1,18
+"21",11,5,"2015-08-19","VN","","minh_khoi.le@syngenta.com","",38,"Khoi ","Adutharai","Thanjavur","VN-61","20.46","16.45","Kumbalingam","3",15,11,3,3.7,16.9
+"22",12,5,"2015-08-19","IN","","ben.wu@syngenta.com","",34,"Test_","Kegmearuthuvakudi, Aduthra","Tanjavore","IN-TN","10.933","79.414","Kumbalingam","3",22,12,1,2.3,18
+"23",12,5,"2015-08-19","IN","","ben.wu@syngenta.com","",34,"Test_","Kegmearuthuvakudi, Aduthra","Tanjavore","IN-TN","10.933","79.414","Kumbalingam","3",23,12,2,2,19.1
+"24",12,5,"2015-08-19","IN","","ben.wu@syngenta.com","",34,"Test_","Kegmearuthuvakudi, Aduthra","Tanjavore","IN-TN","10.933","79.414","Kumbalingam","3",24,12,3,2.5,20
+"25",13,6,"2015-08-19","TH","","terdphong.mahawong@syngenta.com","",25,"1","Panangattangudy","Tanjore","TH-72","10.5559","79.2425","Alagurajan","4",19,13,1,2.5,18
+"26",13,6,"2015-08-19","TH","","terdphong.mahawong@syngenta.com","",25,"1","Panangattangudy","Tanjore","TH-72","10.5559","79.2425","Alagurajan","4",20,13,2,2.5,18
+"27",13,6,"2015-08-19","TH","","terdphong.mahawong@syngenta.com","",25,"1","Panangattangudy","Tanjore","TH-72","10.5559","79.2425","Alagurajan","4",21,13,3,2.5,18
+"28",14,6,"2015-08-19","ID","","ridwan.mustofa@syngenta.com","",31,"Test_","Koezhamaruthevakudi","Tanjur","ID-JB","10.15","79.06666666666666","Ramesh","1",16,14,1,5,18.5
+"29",14,6,"2015-08-19","ID","","ridwan.mustofa@syngenta.com","",31,"Test_","Koezhamaruthevakudi","Tanjur","ID-JB","10.15","79.06666666666666","Ramesh","1",17,14,2,4.75,18.6
+"30",14,6,"2015-08-19","ID","","ridwan.mustofa@syngenta.com","",31,"Test_","Koezhamaruthevakudi","Tanjur","ID-JB","10.15","79.06666666666666","Ramesh","1",18,14,3,4.5,18.4
+"31",15,6,"2015-08-19","IN","","subash.barik@syngenta.com","",41,"Plot ","Sakotai, Karpur","Tanjavour","IN-TN","10.97","79.42","S. Kankuain","4.5",NA,NA,NA,NA,NA
+"32",16,5,"2015-08-19","IN","","kishenjit.sinha@syngenta.com","",43,"Test_","Malayur","Thanjavur","IN-TN","10.97","79.42","Alagaraja","4",25,16,1,12,10
+"33",16,5,"2015-08-19","IN","","kishenjit.sinha@syngenta.com","",43,"Test_","Malayur","Thanjavur","IN-TN","10.97","79.42","Alagaraja","4",26,16,2,12,16
+"34",16,5,"2015-08-19","IN","","kishenjit.sinha@syngenta.com","",43,"Test_","Malayur","Thanjavur","IN-TN","10.97","79.42","Alagaraja","4",27,16,3,13,15
+"35",17,6,"2015-08-19","IN","","ajay.singh@syngenta.com","",39,"123","Kokkur","Nagappattinam","IN-TN","-6.8756","107.8765","Sudhradathi","2",NA,NA,NA,NA,NA
+"36",18,3,"2015-08-19","IN","","rajesh.kumar@syngenta.com","",42,"Rajes","Krishnapuram","Kumbakonam","IN-TN","10.97","79.42","Govinda Rajan","4.8",NA,NA,NA,NA,NA
+"37",19,5,"2015-08-26","VN","","minh_khoi.le@syngenta.com","",38,"Trung","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.800","106.391","Vu Thi Van","0.08",28,19,1,3.2,15.3
+"38",19,5,"2015-08-26","VN","","minh_khoi.le@syngenta.com","",38,"Trung","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.800","106.391","Vu Thi Van","0.08",29,19,2,3.1,14.8
+"39",19,5,"2015-08-26","VN","","minh_khoi.le@syngenta.com","",38,"Trung","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.800","106.391","Vu Thi Van","0.08",30,19,3,3,14.9
+"40",20,5,"2015-08-26","VN","","minh_khoi.le@syngenta.com","",38,"Trung","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.797","106.385","Nguyen Thi Nguyet","0.08",34,20,1,4.1,15
+"41",20,5,"2015-08-26","VN","","minh_khoi.le@syngenta.com","",38,"Trung","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.797","106.385","Nguyen Thi Nguyet","0.08",35,20,2,4.2,15.8
+"42",20,5,"2015-08-26","VN","","minh_khoi.le@syngenta.com","",38,"Trung","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.797","106.385","Nguyen Thi Nguyet","0.08",36,20,3,4,15.3
+"43",21,6,"2015-08-26","VN","","minh_khoi.le@syngenta.com","",38,"Trung","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.799","106.394","Nguyen Thi Ly","0.07",31,21,1,2.6,15.6
+"44",21,6,"2015-08-26","VN","","minh_khoi.le@syngenta.com","",38,"Trung","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.799","106.394","Nguyen Thi Ly","0.07",32,21,2,2.5,15.7
+"45",21,6,"2015-08-26","VN","","minh_khoi.le@syngenta.com","",38,"Trung","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.799","106.394","Nguyen Thi Ly","0.07",33,21,3,2.5,15.5
+"46",22,5,"2015-08-28","VN","","minh_khoi.le@syngenta.com","",38,"Trung","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.797","106.386","Nguyen Thi Nhinh","0.1",37,22,1,3.1,16.5
+"47",22,5,"2015-08-28","VN","","minh_khoi.le@syngenta.com","",38,"Trung","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.797","106.386","Nguyen Thi Nhinh","0.1",38,22,2,3.2,17.1
+"48",22,5,"2015-08-28","VN","","minh_khoi.le@syngenta.com","",38,"Trung","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.797","106.386","Nguyen Thi Nhinh","0.1",39,22,3,3.2,16.9
+"49",23,5,"2015-08-28","VN","","minh_khoi.le@syngenta.com","",38,"Trung","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.799","106.392","Vu Thi Tan","0.06",40,23,1,2.4,14.3
+"50",23,5,"2015-08-28","VN","","minh_khoi.le@syngenta.com","",38,"Trung","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.799","106.392","Vu Thi Tan","0.06",41,23,2,2.5,14.5
+"51",23,5,"2015-08-28","VN","","minh_khoi.le@syngenta.com","",38,"Trung","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.799","106.392","Vu Thi Tan","0.06",42,23,3,2.6,15.1
+"52",24,5,"2015-08-28","VN","","minh_khoi.le@syngenta.com","",38,"Khoi0","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.787","106.398","Le Thi Tham","0.07",43,24,1,3.5,14.8
+"53",24,5,"2015-08-28","VN","","minh_khoi.le@syngenta.com","",38,"Khoi0","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.787","106.398","Le Thi Tham","0.07",44,24,2,3.4,15.3
+"54",24,5,"2015-08-28","VN","","minh_khoi.le@syngenta.com","",38,"Khoi0","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.787","106.398","Le Thi Tham","0.07",45,24,3,3.4,14.6
+"55",25,5,"2015-08-29","VN","","minh_khoi.le@syngenta.com","",38,"Nghie","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.477","106.231","Mai Van De","0.03",46,25,1,3.3,16
+"56",25,5,"2015-08-29","VN","","minh_khoi.le@syngenta.com","",38,"Nghie","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.477","106.231","Mai Van De","0.03",47,25,2,3.5,16.5
+"57",25,5,"2015-08-29","VN","","minh_khoi.le@syngenta.com","",38,"Nghie","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.477","106.231","Mai Van De","0.03",48,25,3,3.5,16
+"58",26,5,"2015-08-29","VN","","minh_khoi.le@syngenta.com","",38,"Nghie","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.047","106.231","Mai Van Ke","0.03",NA,NA,NA,NA,NA
+"59",27,5,"2015-08-29","VN","","minh_khoi.le@syngenta.com","",38,"Nghie","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.477","106.231","Mai Van Ke","0.03",49,27,1,4,18.5
+"60",27,5,"2015-08-29","VN","","minh_khoi.le@syngenta.com","",38,"Nghie","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.477","106.231","Mai Van Ke","0.03",50,27,2,4.5,19
+"61",27,5,"2015-08-29","VN","","minh_khoi.le@syngenta.com","",38,"Nghie","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.477","106.231","Mai Van Ke","0.03",51,27,3,4.2,18.5
+"62",28,5,"2015-08-29","VN","","minh_khoi.le@syngenta.com","",38,"Nghie","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.476","106.239","Hoang Van On","0.06",52,28,1,3.5,15
+"63",28,5,"2015-08-29","VN","","minh_khoi.le@syngenta.com","",38,"Nghie","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.476","106.239","Hoang Van On","0.06",53,28,2,3,14
+"64",28,5,"2015-08-29","VN","","minh_khoi.le@syngenta.com","",38,"Nghie","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.476","106.239","Hoang Van On","0.06",54,28,3,3.2,14.5
+"65",29,5,"2015-08-29","VN","","minh_khoi.le@syngenta.com","",38,"Nghie","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.793","106.384","Nguyen Thi Dan","0.03",NA,NA,NA,NA,NA
+"66",30,5,"2015-08-29","VN","","minh_khoi.le@syngenta.com","",38,"Nghie","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.795","106.387","Mai Thi Thap","0.04",55,30,1,3.4,15
+"67",30,5,"2015-08-29","VN","","minh_khoi.le@syngenta.com","",38,"Nghie","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.795","106.387","Mai Thi Thap","0.04",56,30,2,3,14.3
+"68",30,5,"2015-08-29","VN","","minh_khoi.le@syngenta.com","",38,"Nghie","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.795","106.387","Mai Thi Thap","0.04",57,30,3,3.1,14
+"69",31,5,"2015-08-30","VN","","minh_khoi.le@syngenta.com","",38,"Khoi2","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.786","106.398","Mai Thi Sang","0.07",58,31,1,3.4,15.2
+"70",31,5,"2015-08-30","VN","","minh_khoi.le@syngenta.com","",38,"Khoi2","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.786","106.398","Mai Thi Sang","0.07",59,31,2,3.5,14.8
+"71",31,5,"2015-08-30","VN","","minh_khoi.le@syngenta.com","",38,"Khoi2","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.786","106.398","Mai Thi Sang","0.07",60,31,3,3.4,14.5
+"72",32,5,"2015-08-30","VN","","minh_khoi.le@syngenta.com","",38,"Khoi3","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.787","106.398","Pham Van Thanh","0.05",61,32,1,3.9,14.5
+"73",32,5,"2015-08-30","VN","","minh_khoi.le@syngenta.com","",38,"Khoi3","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.787","106.398","Pham Van Thanh","0.05",62,32,2,3.8,14.3
+"74",32,5,"2015-08-30","VN","","minh_khoi.le@syngenta.com","",38,"Khoi3","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.787","106.398","Pham Van Thanh","0.05",63,32,3,3.9,15
+"75",33,5,"2015-08-30","VN","","minh_khoi.le@syngenta.com","",38,"Khoi4","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.793","106.384","Nguyen Thi Thoa","0.09",64,33,1,4.4,15.3
+"76",33,5,"2015-08-30","VN","","minh_khoi.le@syngenta.com","",38,"Khoi4","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.793","106.384","Nguyen Thi Thoa","0.09",65,33,2,4.1,15.4
+"77",33,5,"2015-08-30","VN","","minh_khoi.le@syngenta.com","",38,"Khoi4","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.793","106.384","Nguyen Thi Thoa","0.09",66,33,3,4.3,14.5
+"78",34,5,"2015-08-30","VN","","minh_khoi.le@syngenta.com","",38,"Khoi5","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.785","106.399","Le Thi Phan","0.12",67,34,1,3.9,16.1
+"79",34,5,"2015-08-30","VN","","minh_khoi.le@syngenta.com","",38,"Khoi5","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.785","106.399","Le Thi Phan","0.12",68,34,2,4.5,15.2
+"80",34,5,"2015-08-30","VN","","minh_khoi.le@syngenta.com","",38,"Khoi5","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.785","106.399","Le Thi Phan","0.12",69,34,3,4.5,15.5
+"81",35,5,"2015-08-30","VN","","minh_khoi.le@syngenta.com","",38,"Trung","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.799","106.394","Nguyen Thi Ly","0.07",70,35,1,2.6,15.6
+"82",35,5,"2015-08-30","VN","","minh_khoi.le@syngenta.com","",38,"Trung","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.799","106.394","Nguyen Thi Ly","0.07",71,35,2,2.5,15.7
+"83",35,5,"2015-08-30","VN","","minh_khoi.le@syngenta.com","",38,"Trung","Quan hamlet, Minh Duc commune","Tu Ky","VN-61","20.799","106.394","Nguyen Thi Ly","0.07",72,35,3,2.5,15.3
+"84",36,1,"2015-09-21","ID","","s.jaisong@irri.org","",4,"A","Pulo Jaya","Kawarang","ID-JB","106.28915","106.471","Utang","1",73,36,1,3.4,16.2
+"85",36,1,"2015-09-21","ID","","s.jaisong@irri.org","",4,"A","Pulo Jaya","Kawarang","ID-JB","106.28915","106.471","Utang","1",74,36,2,2.97,15.8
+"86",36,1,"2015-09-21","ID","","s.jaisong@irri.org","",4,"A","Pulo Jaya","Kawarang","ID-JB","106.28915","106.471","Utang","1",75,36,3,3.15,16.3
+"87",37,1,"2015-09-21","ID","","s.jaisong@irri.org","",4,"B","Pulo Jaya","Karawang","ID-JB","-106.2891","167.471","Sakim","1",76,37,1,3.8,15.8
+"88",37,1,"2015-09-21","ID","","s.jaisong@irri.org","",4,"B","Pulo Jaya","Karawang","ID-JB","-106.2891","167.471","Sakim","1",77,37,2,2.91,15.5
+"89",37,1,"2015-09-21","ID","","s.jaisong@irri.org","",4,"B","Pulo Jaya","Karawang","ID-JB","-106.2891","167.471","Sakim","1",78,37,3,3.1,16
+"90",38,1,"2015-09-29","ID","","s.jaisong@irri.org","",4,"c","Pulo Jaya","Karawang","ID-JB","-6.28895","107.47245","Edeng","1",79,38,1,2.81,17.1
+"91",38,1,"2015-09-29","ID","","s.jaisong@irri.org","",4,"c","Pulo Jaya","Karawang","ID-JB","-6.28895","107.47245","Edeng","1",80,38,2,2.36,16.5
+"92",38,1,"2015-09-29","ID","","s.jaisong@irri.org","",4,"c","Pulo Jaya","Karawang","ID-JB","-6.28895","107.47245","Edeng","1",81,38,3,3.06,16.2
+"93",39,1,"2015-09-30","ID","","s.jaisong@irri.org","",4,"D","Pulo Jaya","Karawang","ID-JB","-6.286116666666667","107.47136666666667","Cakra","1",82,39,1,2.06,15.4
+"94",39,1,"2015-09-30","ID","","s.jaisong@irri.org","",4,"D","Pulo Jaya","Karawang","ID-JB","-6.286116666666667","107.47136666666667","Cakra","1",83,39,2,1.25,15.4
+"95",39,1,"2015-09-30","ID","","s.jaisong@irri.org","",4,"D","Pulo Jaya","Karawang","ID-JB","-6.286116666666667","107.47136666666667","Cakra","1",84,39,3,1.2,16
+"96",40,1,"2015-10-01","ID","","s.jaisong@irri.org","",4,"E","Pulo Jaya","Kawarang","ID-JB","-6.289233333333334","107.13873333333333","H.Karya","1",85,40,1,2.4,16.7
+"97",40,1,"2015-10-01","ID","","s.jaisong@irri.org","",4,"E","Pulo Jaya","Kawarang","ID-JB","-6.289233333333334","107.13873333333333","H.Karya","1",86,40,2,1.8,17.1
+"98",40,1,"2015-10-01","ID","","s.jaisong@irri.org","",4,"E","Pulo Jaya","Kawarang","ID-JB","-6.289233333333334","107.13873333333333","H.Karya","1",87,40,3,2.4,18
+"99",41,1,"2015-10-01","ID","","s.jaisong@irri.org","",4,"F","Cipondoh","Kawarang","ID-JB","66.00245861111111","107.00786277777777","Amil","1",NA,NA,NA,NA,NA
+"100",42,1,"2015-10-01","ID","","s.jaisong@irri.org","",4,"G","Cipondoh","Kawarang","ID-JB","6.315416666666667","7.4726333333333335","Mamat","1",88,42,1,2.24,16.3
+"101",42,1,"2015-10-01","ID","","s.jaisong@irri.org","",4,"G","Cipondoh","Kawarang","ID-JB","6.315416666666667","7.4726333333333335","Mamat","1",89,42,2,2.6,15.2
+"102",42,1,"2015-10-01","ID","","s.jaisong@irri.org","",4,"G","Cipondoh","Kawarang","ID-JB","6.315416666666667","7.4726333333333335","Mamat","1",90,42,3,2.71,16.4
+"103",43,1,"2015-10-03","ID","","s.jaisong@irri.org","",4,"H","Cipondoh","Kawarang","ID-JB","6.314166666666667","107.47173333333333","Mpud","1",91,43,1,2.5,16.2
+"104",43,1,"2015-10-03","ID","","s.jaisong@irri.org","",4,"H","Cipondoh","Kawarang","ID-JB","6.314166666666667","107.47173333333333","Mpud","1",92,43,2,3.2,16
+"105",43,1,"2015-10-03","ID","","s.jaisong@irri.org","",4,"H","Cipondoh","Kawarang","ID-JB","6.314166666666667","107.47173333333333","Mpud","1",93,43,3,2.86,15.7
+"106",44,1,"2015-10-03","ID","","s.jaisong@irri.org","",4,"I","Cipondoh","Kawarang","ID-JB","-6.3085","107.47173333333333","Erly","1",94,44,1,3.14,15.8
+"107",44,1,"2015-10-03","ID","","s.jaisong@irri.org","",4,"I","Cipondoh","Kawarang","ID-JB","-6.3085","107.47173333333333","Erly","1",95,44,2,2.8,16.4
+"108",44,1,"2015-10-03","ID","","s.jaisong@irri.org","",4,"I","Cipondoh","Kawarang","ID-JB","-6.3085","107.47173333333333","Erly","1",96,44,3,3.5,15.7
+"109",45,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"Locat","9/1 M.1 Donpu","Sriphajan,","TH-72","14.66783","100.1649","Thanawut Khamphawa","0.8",160,45,1,4.55,17.75
+"110",45,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"Locat","9/1 M.1 Donpu","Sriphajan,","TH-72","14.66783","100.1649","Thanawut Khamphawa","0.8",161,45,2,4.95,15.5
+"111",45,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"Locat","9/1 M.1 Donpu","Sriphajan,","TH-72","14.66783","100.1649","Thanawut Khamphawa","0.8",162,45,3,4.25,16.1
+"112",46,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"Locat","9 M.1,Donphu","Sriphajan","TH-72","14.66754","100.16387","Thanawut Khamphawa","0.96",97,46,1,3.22,15.9
+"113",46,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"Locat","9 M.1,Donphu","Sriphajan","TH-72","14.66754","100.16387","Thanawut Khamphawa","0.96",98,46,2,3.14,15.3
+"114",46,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"Locat","9 M.1,Donphu","Sriphajan","TH-72","14.66754","100.16387","Thanawut Khamphawa","0.96",99,46,3,3.15,15.6
+"115",47,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"Locat","84/3 M.1,Donphu","Sriphajan","TH-72","14.67885","100.16301","Mr. Chid Aeimprasert","0.8",100,47,1,2.68,13.25
+"116",47,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"Locat","84/3 M.1,Donphu","Sriphajan","TH-72","14.67885","100.16301","Mr. Chid Aeimprasert","0.8",101,47,2,2.95,15.6
+"117",47,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"Locat","84/3 M.1,Donphu","Sriphajan","TH-72","14.67885","100.16301","Mr. Chid Aeimprasert","0.8",102,47,3,3.2,12.2
+"118",48,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"Locat","84 M.1, Donpu","Sriphajan","TH-72","14.68077","100.16302","Mrs. Pi Khongpeth","1.12",103,48,1,2.48,16.2
+"119",48,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"Locat","84 M.1, Donpu","Sriphajan","TH-72","14.68077","100.16302","Mrs. Pi Khongpeth","1.12",104,48,2,2.51,16.1
+"120",48,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"Locat","84 M.1, Donpu","Sriphajan","TH-72","14.68077","100.16302","Mrs. Pi Khongpeth","1.12",105,48,3,2.46,14
+"121",49,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"Locat","47 M.1, Donphu","Sriphajan","TH-72","14.6705","100.19176","Miss. Cansong Muengchinda","0.64",106,49,1,5.25,15.1
+"122",49,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"Locat","47 M.1, Donphu","Sriphajan","TH-72","14.6705","100.19176","Miss. Cansong Muengchinda","0.64",107,49,2,4.7,16.2
+"123",49,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"Locat","47 M.1, Donphu","Sriphajan","TH-72","14.6705","100.19176","Miss. Cansong Muengchinda","0.64",108,49,3,4.5,16.5
+"124",50,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"Locat","32/4 M4, Prayna","Sriphajun","TH-72","14.66983","100.19018","Mrs. Phayao Seephaeo","1.56",109,50,1,5.1,16.7
+"125",50,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"Locat","32/4 M4, Prayna","Sriphajun","TH-72","14.66983","100.19018","Mrs. Phayao Seephaeo","1.56",110,50,2,5.5,16.2
+"126",50,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"Locat","32/4 M4, Prayna","Sriphajun","TH-72","14.66983","100.19018","Mrs. Phayao Seephaeo","1.56",111,50,3,4.9,16.5
+"127",51,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"7","3/2 M.4 Prayna","Sriphajun","TH-72","14.66965","100.18964","Mrs. Phayao Seephaeo","1.78",112,51,1,3.5,16.2
+"128",51,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"7","3/2 M.4 Prayna","Sriphajun","TH-72","14.66965","100.18964","Mrs. Phayao Seephaeo","1.78",113,51,2,3.8,15.9
+"129",51,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"7","3/2 M.4 Prayna","Sriphajun","TH-72","14.66965","100.18964","Mrs. Phayao Seephaeo","1.78",114,51,3,4,16.8
+"130",52,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"8","28 M.5, Wangnumsup","Sriphajan","TH-72","14.65594","100.19163","Mr. Boontham Mangvong","1.04",115,52,1,4.2,16.7
+"131",52,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"8","28 M.5, Wangnumsup","Sriphajan","TH-72","14.65594","100.19163","Mr. Boontham Mangvong","1.04",116,52,2,4.6,17.3
+"132",52,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"8","28 M.5, Wangnumsup","Sriphajan","TH-72","14.65594","100.19163","Mr. Boontham Mangvong","1.04",117,52,3,3.8,16.5
+"133",53,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"9","188/1 M.1, Bankhang","Sriphajun","TH-72","14.65808","100.19158","Miss. Chean Phailahan","1.56",118,53,1,3.2,16.2
+"134",53,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"9","188/1 M.1, Bankhang","Sriphajun","TH-72","14.65808","100.19158","Miss. Chean Phailahan","1.56",119,53,2,3,17
+"135",53,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"9","188/1 M.1, Bankhang","Sriphajun","TH-72","14.65808","100.19158","Miss. Chean Phailahan","1.56",120,53,3,2.8,16.5
+"136",54,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"10","141/1 M.7, Donphu","Sriphajan","TH-72","14.65785","100.19156","Mr.Loun Saengmanee","1.25",121,54,1,4.25,16.7
+"137",54,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"10","141/1 M.7, Donphu","Sriphajan","TH-72","14.65785","100.19156","Mr.Loun Saengmanee","1.25",122,54,2,4.7,17.4
+"138",54,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"10","141/1 M.7, Donphu","Sriphajan","TH-72","14.65785","100.19156","Mr.Loun Saengmanee","1.25",123,54,3,4.3,16.8
+"139",55,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"11","188 M.1, Bankhang","Sriphajan","TH-72","14.67459","100.17774","Mrs. Thiam Mauangwong","1.56",124,55,1,3.6,15.4
+"140",55,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"11","188 M.1, Bankhang","Sriphajan","TH-72","14.67459","100.17774","Mrs. Thiam Mauangwong","1.56",125,55,2,3.5,15.7
+"141",55,2,"2015-10-04","TH","","terdphong.mahawong@syngenta.com","",25,"11","188 M.1, Bankhang","Sriphajan","TH-72","14.67459","100.17774","Mrs. Thiam Mauangwong","1.56",126,55,3,3.8,15.8
+"142",56,2,"2015-10-05","TH","","terdphong.mahawong@syngenta.com","",25,"12","188/3 M.1, Bankhang","Sriphajan","TH-72","14.64009","100.15984","Miss Natthakan Jompongrung","1.04",127,56,1,4,16.4
+"143",56,2,"2015-10-05","TH","","terdphong.mahawong@syngenta.com","",25,"12","188/3 M.1, Bankhang","Sriphajan","TH-72","14.64009","100.15984","Miss Natthakan Jompongrung","1.04",128,56,2,3.8,16.7
+"144",56,2,"2015-10-05","TH","","terdphong.mahawong@syngenta.com","",25,"12","188/3 M.1, Bankhang","Sriphajan","TH-72","14.64009","100.15984","Miss Natthakan Jompongrung","1.04",129,56,3,3.52,16.6
+"145",57,1,"2015-10-05","ID","","s.jaisong@irri.org","",4,"J","Cipondoh","Karawang","ID-JB","-6.314183333333333","107.47176666666667","Emu","0.75",130,57,1,2.17,16.5
+"146",57,1,"2015-10-05","ID","","s.jaisong@irri.org","",4,"J","Cipondoh","Karawang","ID-JB","-6.314183333333333","107.47176666666667","Emu","0.75",131,57,2,3.24,16.1
+"147",57,1,"2015-10-05","ID","","s.jaisong@irri.org","",4,"J","Cipondoh","Karawang","ID-JB","-6.314183333333333","107.47176666666667","Emu","0.75",132,57,3,2.9,15.8
+"148",58,1,"2015-10-06","ID","","s.jaisong@irri.org","",4,"K","Kertawaluya","Karawang","ID-JB","-6.30175","107.4775","Acim","4.5",133,58,1,5.58,16
+"149",58,1,"2015-10-06","ID","","s.jaisong@irri.org","",4,"K","Kertawaluya","Karawang","ID-JB","-6.30175","107.4775","Acim","4.5",134,58,2,4.5,16.1
+"150",58,1,"2015-10-06","ID","","s.jaisong@irri.org","",4,"K","Kertawaluya","Karawang","ID-JB","-6.30175","107.4775","Acim","4.5",135,58,3,5.12,14.3
+"151",59,1,"2015-10-06","ID","","s.jaisong@irri.org","",4,"L","Kertawaluya","Karawang","ID-JB","-6.303766666666666","107.472","Kanda","1",136,59,1,2.45,17.7
+"152",59,1,"2015-10-06","ID","","s.jaisong@irri.org","",4,"L","Kertawaluya","Karawang","ID-JB","-6.303766666666666","107.472","Kanda","1",137,59,2,2.56,18
+"153",59,1,"2015-10-06","ID","","s.jaisong@irri.org","",4,"L","Kertawaluya","Karawang","ID-JB","-6.303766666666666","107.472","Kanda","1",138,59,3,3.4,17.7
+"154",60,1,"2015-10-07","ID","","s.jaisong@irri.org","",4,"M","Kertawaluya","Karawang","ID-JB","-6.305283333333334","107.47183333333334","Enggun","2",139,60,1,2.15,14.1
+"155",60,1,"2015-10-07","ID","","s.jaisong@irri.org","",4,"M","Kertawaluya","Karawang","ID-JB","-6.305283333333334","107.47183333333334","Enggun","2",140,60,2,2.85,14.5
+"156",60,1,"2015-10-07","ID","","s.jaisong@irri.org","",4,"M","Kertawaluya","Karawang","ID-JB","-6.305283333333334","107.47183333333334","Enggun","2",141,60,3,3.07,16
+"157",61,1,"2015-10-07","ID","","s.jaisong@irri.org","",4,"์N","Kertawaluya","Karawang","ID-JB","-6.305416666666667","107.47388333333333","Udin","2",142,61,1,2.7,16.1
+"158",61,1,"2015-10-07","ID","","s.jaisong@irri.org","",4,"์N","Kertawaluya","Karawang","ID-JB","-6.305416666666667","107.47388333333333","Udin","2",143,61,2,2.1,14.1
+"159",61,1,"2015-10-07","ID","","s.jaisong@irri.org","",4,"์N","Kertawaluya","Karawang","ID-JB","-6.305416666666667","107.47388333333333","Udin","2",144,61,3,2.7,18.2
+"160",62,1,"2015-10-07","ID","","s.jaisong@irri.org","",4,"O","Kertawaluya","Karawang","ID-JB","-6.3075833333333335","107.4714","Karsiwan","0.2",145,62,1,1.23,17.6
+"161",62,1,"2015-10-07","ID","","s.jaisong@irri.org","",4,"O","Kertawaluya","Karawang","ID-JB","-6.3075833333333335","107.4714","Karsiwan","0.2",146,62,2,1.1,20.5
+"162",62,1,"2015-10-07","ID","","s.jaisong@irri.org","",4,"O","Kertawaluya","Karawang","ID-JB","-6.3075833333333335","107.4714","Karsiwan","0.2",147,62,3,1.25,18.2
+"163",63,2,"2015-10-07","ID","","s.jaisong@irri.org","",4,"A","Cipondoh","Karawang","ID-JB","-6.313733333333333","107.47555","Bpk. Rouf","0.52",148,63,1,3.65,20.3
+"164",63,2,"2015-10-07","ID","","s.jaisong@irri.org","",4,"A","Cipondoh","Karawang","ID-JB","-6.313733333333333","107.47555","Bpk. Rouf","0.52",149,63,2,3.15,21.1
+"165",63,2,"2015-10-07","ID","","s.jaisong@irri.org","",4,"A","Cipondoh","Karawang","ID-JB","-6.313733333333333","107.47555","Bpk. Rouf","0.52",150,63,3,3.6,20.9
+"166",64,2,"2015-10-08","ID","","s.jaisong@irri.org","",4,"B","Cipondoh","Karawang","ID-JB","-6.314283333333333","107.47456666666666","Bpk. Amil","0.5",151,64,1,3.25,20.8
+"167",64,2,"2015-10-08","ID","","s.jaisong@irri.org","",4,"B","Cipondoh","Karawang","ID-JB","-6.314283333333333","107.47456666666666","Bpk. Amil","0.5",152,64,2,3.35,21.4
+"168",64,2,"2015-10-08","ID","","s.jaisong@irri.org","",4,"B","Cipondoh","Karawang","ID-JB","-6.314283333333333","107.47456666666666","Bpk. Amil","0.5",153,64,3,3.05,22.3
+"169",65,2,"2015-10-21","TH","","terdphong.mahawong@syngenta.com","",25,"13","398/1 M.3","Sriphajan","TH-72","14.64939","100.18236","Mr. Sawean Raral","1.25",154,65,1,4.2,16.5
+"170",65,2,"2015-10-21","TH","","terdphong.mahawong@syngenta.com","",25,"13","398/1 M.3","Sriphajan","TH-72","14.64939","100.18236","Mr. Sawean Raral","1.25",155,65,2,3.8,16.4
+"171",65,2,"2015-10-21","TH","","terdphong.mahawong@syngenta.com","",25,"13","398/1 M.3","Sriphajan","TH-72","14.64939","100.18236","Mr. Sawean Raral","1.25",156,65,3,3.75,16.7
+"172",66,2,"2015-10-21","TH","","terdphong.mahawong@syngenta.com","",25,"15","45/1 M.4","Sriphajan","TH-72","14.62793","100.16653","Mr. Suns Phigullkhaow","0.89",157,66,1,3.1,16.7
+"173",66,2,"2015-10-21","TH","","terdphong.mahawong@syngenta.com","",25,"15","45/1 M.4","Sriphajan","TH-72","14.62793","100.16653","Mr. Suns Phigullkhaow","0.89",158,66,2,3.4,16.5
+"174",66,2,"2015-10-21","TH","","terdphong.mahawong@syngenta.com","",25,"15","45/1 M.4","Sriphajan","TH-72","14.62793","100.16653","Mr. Suns Phigullkhaow","0.89",159,66,3,2.8,16.8
+"175",67,2,"2015-10-21","TH","","terdphong.mahawong@syngenta.com","",25,"14","398/1 M.3","Sriphajan","TH-72","14.60784","100.19559","Mrs. Payow Lalai","1.25",163,67,1,4.5,17.1
+"176",67,2,"2015-10-21","TH","","terdphong.mahawong@syngenta.com","",25,"14","398/1 M.3","Sriphajan","TH-72","14.60784","100.19559","Mrs. Payow Lalai","1.25",164,67,2,4.8,16.7
+"177",67,2,"2015-10-21","TH","","terdphong.mahawong@syngenta.com","",25,"14","398/1 M.3","Sriphajan","TH-72","14.60784","100.19559","Mrs. Payow Lalai","1.25",165,67,3,4.2,16.8
+"178",68,3,"2015-10-22","ID","","s.jaisong@irri.org","",4,"A","Kiara,cilamaya kulon","Karawang","ID-JB","-6.266","107.49","Iken","0.6",166,68,1,3.7,22
+"179",68,3,"2015-10-22","ID","","s.jaisong@irri.org","",4,"A","Kiara,cilamaya kulon","Karawang","ID-JB","-6.266","107.49","Iken","0.6",167,68,2,3.7,23
+"180",68,3,"2015-10-22","ID","","s.jaisong@irri.org","",4,"A","Kiara,cilamaya kulon","Karawang","ID-JB","-6.266","107.49","Iken","0.6",168,68,3,3.7,24
+"181",69,2,"2015-10-22","ID","","s.jaisong@irri.org","",4,"C","Cipondoh","Karawang","ID-JB","-6.314116666666667","107.47088333333333","Bpk, Mamad","0.35",169,69,1,2.95,22
+"182",69,2,"2015-10-22","ID","","s.jaisong@irri.org","",4,"C","Cipondoh","Karawang","ID-JB","-6.314116666666667","107.47088333333333","Bpk, Mamad","0.35",170,69,2,2.4,19.5
+"183",69,2,"2015-10-22","ID","","s.jaisong@irri.org","",4,"C","Cipondoh","Karawang","ID-JB","-6.314116666666667","107.47088333333333","Bpk, Mamad","0.35",171,69,3,3.1,20
+"184",70,2,"2015-10-22","TH","","terdphong.mahawong@syngenta.com","",25,"16","28 M.5, Wangnumsup,","Sriphajan","TH-72","14.60259","100.20091","Manit Ubonban","1.25",172,70,1,3.8,17.1
+"185",70,2,"2015-10-22","TH","","terdphong.mahawong@syngenta.com","",25,"16","28 M.5, Wangnumsup,","Sriphajan","TH-72","14.60259","100.20091","Manit Ubonban","1.25",173,70,2,3.5,16.8
+"186",70,2,"2015-10-22","TH","","terdphong.mahawong@syngenta.com","",25,"16","28 M.5, Wangnumsup,","Sriphajan","TH-72","14.60259","100.20091","Manit Ubonban","1.25",174,70,3,4,16.9
+"187",71,2,"2015-10-23","TH","","terdphong.mahawong@syngenta.com","",25,"17","143 M.4, Aoptom","Samko","TH-15","14.61033","100.20011","Matta Pasak","1.25",175,71,1,3.2,16.5
+"188",71,2,"2015-10-23","TH","","terdphong.mahawong@syngenta.com","",25,"17","143 M.4, Aoptom","Samko","TH-15","14.61033","100.20011","Matta Pasak","1.25",176,71,2,3.5,16.4
+"189",71,2,"2015-10-23","TH","","terdphong.mahawong@syngenta.com","",25,"17","143 M.4, Aoptom","Samko","TH-15","14.61033","100.20011","Matta Pasak","1.25",177,71,3,3,16.7
+"190",72,2,"2015-10-23","TH","","terdphong.mahawong@syngenta.com","",25,"18","188/5 M.1, Bankhang","Sriphajan","TH-72","14.61004","100.20038","Janya Pitikham","1.04",178,72,1,3.8,16.7
+"191",72,2,"2015-10-23","TH","","terdphong.mahawong@syngenta.com","",25,"18","188/5 M.1, Bankhang","Sriphajan","TH-72","14.61004","100.20038","Janya Pitikham","1.04",179,72,2,3.5,16.4
+"192",72,2,"2015-10-23","TH","","terdphong.mahawong@syngenta.com","",25,"18","188/5 M.1, Bankhang","Sriphajan","TH-72","14.61004","100.20038","Janya Pitikham","1.04",180,72,3,3.2,16.5
+"193",73,2,"2015-10-23","TH","","terdphong.mahawong@syngenta.com","",25,"19","61/2 M.4, Aoptom","Samko","TH-15","14.61488","100.19827","Prasan phuttakosa","1.25",181,73,1,3.8,16.7
+"194",73,2,"2015-10-23","TH","","terdphong.mahawong@syngenta.com","",25,"19","61/2 M.4, Aoptom","Samko","TH-15","14.61488","100.19827","Prasan phuttakosa","1.25",182,73,2,3.5,16.4
+"195",73,2,"2015-10-23","TH","","terdphong.mahawong@syngenta.com","",25,"19","61/2 M.4, Aoptom","Samko","TH-15","14.61488","100.19827","Prasan phuttakosa","1.25",183,73,3,3.2,16.5
+"196",74,2,"2015-10-23","ID","","s.jaisong@irri.org","",4,"D","Cipondoh","Karawang","ID-JB","-6.3306","107.47135","Bpk, Emu","0.17",187,74,1,3,20.8
+"197",74,2,"2015-10-23","ID","","s.jaisong@irri.org","",4,"D","Cipondoh","Karawang","ID-JB","-6.3306","107.47135","Bpk, Emu","0.17",188,74,2,3.2,21.1
+"198",74,2,"2015-10-23","ID","","s.jaisong@irri.org","",4,"D","Cipondoh","Karawang","ID-JB","-6.3306","107.47135","Bpk, Emu","0.17",189,74,3,3.6,22
+"199",75,2,"2015-10-23","TH","","terdphong.mahawong@syngenta.com","",25,"20","55 M.4, Aoptom","Samko","TH-15","14.63069","100.17402","Nipol Kroodpel","1.25",184,75,1,5.2,17
+"200",75,2,"2015-10-23","TH","","terdphong.mahawong@syngenta.com","",25,"20","55 M.4, Aoptom","Samko","TH-15","14.63069","100.17402","Nipol Kroodpel","1.25",185,75,2,5,16.8
+"201",75,2,"2015-10-23","TH","","terdphong.mahawong@syngenta.com","",25,"20","55 M.4, Aoptom","Samko","TH-15","14.63069","100.17402","Nipol Kroodpel","1.25",186,75,3,4.8,17.1
+"202",76,2,"2015-10-25","ID","","s.jaisong@irri.org","",4,"E","Cipondoh","Karawang","ID-JB","-6.3133333333333335","107.47025","Bpk, Erly","0.4",190,76,1,2.9,20.5
+"203",76,2,"2015-10-25","ID","","s.jaisong@irri.org","",4,"E","Cipondoh","Karawang","ID-JB","-6.3133333333333335","107.47025","Bpk, Erly","0.4",191,76,2,2.7,21
+"204",76,2,"2015-10-25","ID","","s.jaisong@irri.org","",4,"E","Cipondoh","Karawang","ID-JB","-6.3133333333333335","107.47025","Bpk, Erly","0.4",192,76,3,2.6,23
+"205",77,2,"2015-10-29","ID","","s.jaisong@irri.org","",4,"H","PuloJaya","Karawang","ID-JB","-6.292116666666667","115.85","Bpk. H. Sakim","2",193,77,1,2.85,21
+"206",77,2,"2015-10-29","ID","","s.jaisong@irri.org","",4,"H","PuloJaya","Karawang","ID-JB","-6.292116666666667","115.85","Bpk. H. Sakim","2",194,77,2,3.85,20.1
+"207",77,2,"2015-10-29","ID","","s.jaisong@irri.org","",4,"H","PuloJaya","Karawang","ID-JB","-6.292116666666667","115.85","Bpk. H. Sakim","2",195,77,3,3.55,21.3
+"208",78,3,"2015-10-29","ID","","s.jaisong@irri.org","",4,"N","Karya mukti, Lemah abang Wadas","Karawang","ID-JB","-6.280","107.45","H.Ndang","1",NA,NA,NA,NA,NA
+"209",79,2,"2015-11-01","ID","","s.jaisong@irri.org","",4,"I","Pulo Jaya","Karawang","ID-JB","-6.2907","107.47655","Pak Ustad","0.7",196,79,1,1.75,16.5
+"210",79,2,"2015-11-01","ID","","s.jaisong@irri.org","",4,"I","Pulo Jaya","Karawang","ID-JB","-6.2907","107.47655","Pak Ustad","0.7",197,79,2,1.95,16.7
+"211",79,2,"2015-11-01","ID","","s.jaisong@irri.org","",4,"I","Pulo Jaya","Karawang","ID-JB","-6.2907","107.47655","Pak Ustad","0.7",198,79,3,3.35,16.8
+"212",80,2,"2015-11-01","ID","","s.jaisong@irri.org","",4,"J","Pulo Jaya","Karawang","ID-JB","-6.29135","107.47688333333333","Bpk, Wahyu","0.35",199,80,1,4,16.2
+"213",80,2,"2015-11-01","ID","","s.jaisong@irri.org","",4,"J","Pulo Jaya","Karawang","ID-JB","-6.29135","107.47688333333333","Bpk, Wahyu","0.35",200,80,2,3.4,16
+"214",80,2,"2015-11-01","ID","","s.jaisong@irri.org","",4,"J","Pulo Jaya","Karawang","ID-JB","-6.29135","107.47688333333333","Bpk, Wahyu","0.35",201,80,3,4.5,16
+"215",81,2,"2015-11-01","ID","","s.jaisong@irri.org","",4,"K","Kertawaluya","Karawang","ID-JB","-6.3011333333333335","107.47368333333333","Bpk, Ulis","0.5",202,81,1,0.7,15.4
+"216",81,2,"2015-11-01","ID","","s.jaisong@irri.org","",4,"K","Kertawaluya","Karawang","ID-JB","-6.3011333333333335","107.47368333333333","Bpk, Ulis","0.5",203,81,2,0.85,15.9
+"217",81,2,"2015-11-01","ID","","s.jaisong@irri.org","",4,"K","Kertawaluya","Karawang","ID-JB","-6.3011333333333335","107.47368333333333","Bpk, Ulis","0.5",204,81,3,0.8,16.3
+"218",82,1,"2015-11-01","TH","","terdphong.mahawong@syngenta.com","",25,"1","9/1 M.1 Donpu","Sriphajan","TH-72","14.66783","100.1649","Mr. Pramoun Jaemsri","1.25",205,82,1,3.4,17.75
+"219",82,1,"2015-11-01","TH","","terdphong.mahawong@syngenta.com","",25,"1","9/1 M.1 Donpu","Sriphajan","TH-72","14.66783","100.1649","Mr. Pramoun Jaemsri","1.25",206,82,2,3.2,15.5
+"220",82,1,"2015-11-01","TH","","terdphong.mahawong@syngenta.com","",25,"1","9/1 M.1 Donpu","Sriphajan","TH-72","14.66783","100.1649","Mr. Pramoun Jaemsri","1.25",207,82,3,3,16.1
+"221",83,1,"2015-11-01","TH","","terdphong.mahawong@syngenta.com","",25,"2","9 M.1,Donphu","Sriphajan","TH-72","14.66754","100.16387","Miss Lamduan Jiwjaroen","1.04",208,83,1,3.22,15.9
+"222",83,1,"2015-11-01","TH","","terdphong.mahawong@syngenta.com","",25,"2","9 M.1,Donphu","Sriphajan","TH-72","14.66754","100.16387","Miss Lamduan Jiwjaroen","1.04",209,83,2,3.4,15.7
+"223",83,1,"2015-11-01","TH","","terdphong.mahawong@syngenta.com","",25,"2","9 M.1,Donphu","Sriphajan","TH-72","14.66754","100.16387","Miss Lamduan Jiwjaroen","1.04",210,83,3,3.14,17.3
+"224",84,1,"2015-11-01","TH","","terdphong.mahawong@syngenta.com","",25,"3","84/3 M.1, Donphu","Sriphajan","TH-72","14.67885","100.16301","Mr. Chid Aeimprasert","1.25",211,84,1,2.48,14
+"225",84,1,"2015-11-01","TH","","terdphong.mahawong@syngenta.com","",25,"3","84/3 M.1, Donphu","Sriphajan","TH-72","14.67885","100.16301","Mr. Chid Aeimprasert","1.25",212,84,2,2.58,14.4
+"226",84,1,"2015-11-01","TH","","terdphong.mahawong@syngenta.com","",25,"3","84/3 M.1, Donphu","Sriphajan","TH-72","14.67885","100.16301","Mr. Chid Aeimprasert","1.25",213,84,3,2.54,14.8
+"227",85,1,"2015-11-01","TH","","terdphong.mahawong@syngenta.com","",25,"4","84 M.1, Donpu","Sriphajan","TH-72","14.68077","100.16302","Mrs. Pi Khongpeth","0.89",214,85,1,2.78,14
+"228",85,1,"2015-11-01","TH","","terdphong.mahawong@syngenta.com","",25,"4","84 M.1, Donpu","Sriphajan","TH-72","14.68077","100.16302","Mrs. Pi Khongpeth","0.89",215,85,2,2.74,15.2
+"229",85,1,"2015-11-01","TH","","terdphong.mahawong@syngenta.com","",25,"4","84 M.1, Donpu","Sriphajan","TH-72","14.68077","100.16302","Mrs. Pi Khongpeth","0.89",216,85,3,2.76,15
+"230",86,1,"2015-11-01","TH","","terdphong.mahawong@syngenta.com","",25,"5","47 M.1, Donphuv","Sriphajan","TH-72","14.6705","100.19176","Miss. Cansong Muengchinda","1.56",217,86,1,2.8,15.2
+"231",86,1,"2015-11-01","TH","","terdphong.mahawong@syngenta.com","",25,"5","47 M.1, Donphuv","Sriphajan","TH-72","14.6705","100.19176","Miss. Cansong Muengchinda","1.56",218,86,2,2.5,15.4
+"232",86,1,"2015-11-01","TH","","terdphong.mahawong@syngenta.com","",25,"5","47 M.1, Donphuv","Sriphajan","TH-72","14.6705","100.19176","Miss. Cansong Muengchinda","1.56",219,86,3,2.9,14
+"233",87,1,"2015-11-01","TH","","terdphong.mahawong@syngenta.com","",25,"6","32/4 M4, Prayna","Sriphajun","TH-72","14.66983","100.19018","Mrs. Phayao Seephaeo","1.62",220,87,1,2.8,14.5
+"234",87,1,"2015-11-01","TH","","terdphong.mahawong@syngenta.com","",25,"6","32/4 M4, Prayna","Sriphajun","TH-72","14.66983","100.19018","Mrs. Phayao Seephaeo","1.62",221,87,2,3,16.4
+"235",87,1,"2015-11-01","TH","","terdphong.mahawong@syngenta.com","",25,"6","32/4 M4, Prayna","Sriphajun","TH-72","14.66983","100.19018","Mrs. Phayao Seephaeo","1.62",222,87,3,2.6,14.5
+"236",88,1,"2015-11-02","TH","","terdphong.mahawong@syngenta.com","",25,"7","3/2 M.4 Prayna","Sriphajun","TH-72","14.66965","100.18964","Mrs. Phayao Seephaeo","1.78",223,88,1,2.7,14.6
+"237",88,1,"2015-11-02","TH","","terdphong.mahawong@syngenta.com","",25,"7","3/2 M.4 Prayna","Sriphajun","TH-72","14.66965","100.18964","Mrs. Phayao Seephaeo","1.78",224,88,2,2.5,14.5
+"238",88,1,"2015-11-02","TH","","terdphong.mahawong@syngenta.com","",25,"7","3/2 M.4 Prayna","Sriphajun","TH-72","14.66965","100.18964","Mrs. Phayao Seephaeo","1.78",225,88,3,2.5,14.8
+"239",89,1,"2015-11-02","TH","","terdphong.mahawong@syngenta.com","",25,"8","28 M.5, Wangnumsup","Sriphajan","TH-72","14.65594","100.19163","Mr. Boontham Mangvong","1.04",226,89,1,2.7,15.2
+"240",89,1,"2015-11-02","TH","","terdphong.mahawong@syngenta.com","",25,"8","28 M.5, Wangnumsup","Sriphajan","TH-72","14.65594","100.19163","Mr. Boontham Mangvong","1.04",227,89,2,3,15.6
+"241",89,1,"2015-11-02","TH","","terdphong.mahawong@syngenta.com","",25,"8","28 M.5, Wangnumsup","Sriphajan","TH-72","14.65594","100.19163","Mr. Boontham Mangvong","1.04",228,89,3,2.8,15.4
+"242",90,1,"2015-11-02","TH","","terdphong.mahawong@syngenta.com","",25,"9","188/1 M.1, Bankhang","Sriphajun","TH-72","14.65808","100.19158","Miss. Chean Phailahan","1.62",229,90,1,2.8,15
+"243",90,1,"2015-11-02","TH","","terdphong.mahawong@syngenta.com","",25,"9","188/1 M.1, Bankhang","Sriphajun","TH-72","14.65808","100.19158","Miss. Chean Phailahan","1.62",230,90,2,2.4,14.5
+"244",90,1,"2015-11-02","TH","","terdphong.mahawong@syngenta.com","",25,"9","188/1 M.1, Bankhang","Sriphajun","TH-72","14.65808","100.19158","Miss. Chean Phailahan","1.62",231,90,3,2.8,15.2
+"245",91,1,"2015-11-02","TH","","terdphong.mahawong@syngenta.com","",25,"10","141/1 M.7, Donphu","Sriphajan","TH-72","14.65785","100.19156","Mr.Loun Saengmanee","1.25",232,91,1,3.2,15.7
+"246",91,1,"2015-11-02","TH","","terdphong.mahawong@syngenta.com","",25,"10","141/1 M.7, Donphu","Sriphajan","TH-72","14.65785","100.19156","Mr.Loun Saengmanee","1.25",233,91,2,3.4,15.5
+"247",91,1,"2015-11-02","TH","","terdphong.mahawong@syngenta.com","",25,"10","141/1 M.7, Donphu","Sriphajan","TH-72","14.65785","100.19156","Mr.Loun Saengmanee","1.25",234,91,3,3,15.4
+"248",92,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"11","188 M.1, Bankhang","Sriphajan","TH-72","14.67459","100.17774","Mrs. Thiam Mauangwong","1.56",235,92,1,2.8,15.4
+"249",92,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"11","188 M.1, Bankhang","Sriphajan","TH-72","14.67459","100.17774","Mrs. Thiam Mauangwong","1.56",236,92,2,2.6,15.2
+"250",92,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"11","188 M.1, Bankhang","Sriphajan","TH-72","14.67459","100.17774","Mrs. Thiam Mauangwong","1.56",237,92,3,2.8,15.2
+"251",93,1,"2015-11-03","VN","","s.jaisong@irri.org","",4,"2","Thon Quan- Minh Duc","Tu ky","VN-61","20.4817","106.2336","Nguyen Ngoc Giao","0.07",238,93,1,4.8,19.6
+"252",93,1,"2015-11-03","VN","","s.jaisong@irri.org","",4,"2","Thon Quan- Minh Duc","Tu ky","VN-61","20.4817","106.2336","Nguyen Ngoc Giao","0.07",239,93,2,5.2,20.9
+"253",93,1,"2015-11-03","VN","","s.jaisong@irri.org","",4,"2","Thon Quan- Minh Duc","Tu ky","VN-61","20.4817","106.2336","Nguyen Ngoc Giao","0.07",240,93,3,5.6,21.1
+"254",94,1,"2015-11-03","VN","","s.jaisong@irri.org","",4,"4","Thon Quan- Minh Duc","Tu ky","VN-61","20.4832","106.2351","Pham Thi Yen","0.10",241,94,1,5.4,14.5
+"255",94,1,"2015-11-03","VN","","s.jaisong@irri.org","",4,"4","Thon Quan- Minh Duc","Tu ky","VN-61","20.4832","106.2351","Pham Thi Yen","0.10",242,94,2,5.4,15
+"256",94,1,"2015-11-03","VN","","s.jaisong@irri.org","",4,"4","Thon Quan- Minh Duc","Tu ky","VN-61","20.4832","106.2351","Pham Thi Yen","0.10",243,94,3,5.36,14.4
+"257",95,1,"2015-11-03","VN","","s.jaisong@irri.org","",4,"3","Thon Quan- Minh Duc","Tu ky","VN-61","20.4813","106.232","Nguyen Van Sinh","0.07",244,95,1,5.8,15.9
+"258",95,1,"2015-11-03","VN","","s.jaisong@irri.org","",4,"3","Thon Quan- Minh Duc","Tu ky","VN-61","20.4813","106.232","Nguyen Van Sinh","0.07",245,95,2,5.2,15
+"259",95,1,"2015-11-03","VN","","s.jaisong@irri.org","",4,"3","Thon Quan- Minh Duc","Tu ky","VN-61","20.4813","106.232","Nguyen Van Sinh","0.07",246,95,3,5.6,14.8
+"260",96,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"12","188/3 M.1, Bankhang","Sriphajan","TH-72","14.64009","100.15984","Miss Natthakan Jompongrung","1.04",247,96,1,3.54,15.4
+"261",96,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"12","188/3 M.1, Bankhang","Sriphajan","TH-72","14.64009","100.15984","Miss Natthakan Jompongrung","1.04",248,96,2,3.75,15.7
+"262",96,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"12","188/3 M.1, Bankhang","Sriphajan","TH-72","14.64009","100.15984","Miss Natthakan Jompongrung","1.04",249,96,3,3.52,15.3
+"263",97,2,"2015-11-03","ID","","s.jaisong@irri.org","",4,"F","Pulo Jaya","Karawang","ID-JB","-6.27408","107.48056","Pak mantri","1",250,97,1,3.9,20.7
+"264",97,2,"2015-11-03","ID","","s.jaisong@irri.org","",4,"F","Pulo Jaya","Karawang","ID-JB","-6.27408","107.48056","Pak mantri","1",251,97,2,4.1,19.6
+"265",97,2,"2015-11-03","ID","","s.jaisong@irri.org","",4,"F","Pulo Jaya","Karawang","ID-JB","-6.27408","107.48056","Pak mantri","1",252,97,3,3.7,19.6
+"266",98,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"13","398/1 M.3","Sriphajan","TH-72","14.64939","100.18236","Mr. Sawean Raral","1.25",253,98,1,2.8,15.5
+"267",98,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"13","398/1 M.3","Sriphajan","TH-72","14.64939","100.18236","Mr. Sawean Raral","1.25",254,98,2,2.6,15.65
+"268",98,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"13","398/1 M.3","Sriphajan","TH-72","14.64939","100.18236","Mr. Sawean Raral","1.25",255,98,3,2.75,15.4
+"269",99,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"14","398/1 M.3","Sriphajan","TH-72","14.62793","100.1666","Mrs. Payow Lalai","1.25",256,99,1,3.25,15.7
+"270",99,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"14","398/1 M.3","Sriphajan","TH-72","14.62793","100.1666","Mrs. Payow Lalai","1.25",257,99,2,3.5,16.2
+"271",99,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"14","398/1 M.3","Sriphajan","TH-72","14.62793","100.1666","Mrs. Payow Lalai","1.25",258,99,3,3.2,15.8
+"272",100,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"15","45/1 M.4","Sriphajan","TH-72","14.62793","100.16653","Mr. Suns Phigullkhaow","0.89",259,100,1,2.55,15.8
+"273",100,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"15","45/1 M.4","Sriphajan","TH-72","14.62793","100.16653","Mr. Suns Phigullkhaow","0.89",260,100,2,2.9,15.6
+"274",100,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"15","45/1 M.4","Sriphajan","TH-72","14.62793","100.16653","Mr. Suns Phigullkhaow","0.89",261,100,3,2.8,16
+"275",101,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"16","28 M.5, Wangnumsup","Sriphajan","TH-72","14.60803","100.19513","Mr. Sawat Paensuwan","1.25",262,101,1,2.8,15.7
+"276",101,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"16","28 M.5, Wangnumsup","Sriphajan","TH-72","14.60803","100.19513","Mr. Sawat Paensuwan","1.25",263,101,2,2.95,15.9
+"277",101,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"16","28 M.5, Wangnumsup","Sriphajan","TH-72","14.60803","100.19513","Mr. Sawat Paensuwan","1.25",264,101,3,2.8,15.85
+"278",102,2,"2015-11-03","ID","","s.jaisong@irri.org","",4,"G","Pulo Jaya","Karawang","ID-JB","-6.27874","107.48313","Bpk, Edeng","1",265,102,1,3.9,22
+"279",102,2,"2015-11-03","ID","","s.jaisong@irri.org","",4,"G","Pulo Jaya","Karawang","ID-JB","-6.27874","107.48313","Bpk, Edeng","1",266,102,2,3.1,22.8
+"280",102,2,"2015-11-03","ID","","s.jaisong@irri.org","",4,"G","Pulo Jaya","Karawang","ID-JB","-6.27874","107.48313","Bpk, Edeng","1",267,102,3,3.45,21.2
+"281",103,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"17","143 M.4, Aoptom","Samko","TH-15","14.60875","100.19545","Mr. Winai Prathumma","1.56",268,103,1,2.8,15.75
+"282",103,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"17","143 M.4, Aoptom","Samko","TH-15","14.60875","100.19545","Mr. Winai Prathumma","1.56",269,103,2,2.75,15.55
+"283",103,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"17","143 M.4, Aoptom","Samko","TH-15","14.60875","100.19545","Mr. Winai Prathumma","1.56",270,103,3,2.85,15.8
+"284",104,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"18","188/5 M.1, Bankhang","Sriphajan","TH-72","14.60826","100.19472","Mr. Amnad Pailahan","1.04",271,104,1,2.85,15.4
+"285",104,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"18","188/5 M.1, Bankhang","Sriphajan","TH-72","14.60826","100.19472","Mr. Amnad Pailahan","1.04",272,104,2,2.7,15.5
+"286",104,1,"2015-11-03","TH","","terdphong.mahawong@syngenta.com","",25,"18","188/5 M.1, Bankhang","Sriphajan","TH-72","14.60826","100.19472","Mr. Amnad Pailahan","1.04",273,104,3,2.8,15.5
+"287",105,1,"2015-11-04","TH","","terdphong.mahawong@syngenta.com","",25,"19","61/2 M.4, Aoptom","Samko","TH-15","14.60541","100.19959","Mr. Wichean Somchit","1.56",274,105,1,2.9,15.5
+"288",105,1,"2015-11-04","TH","","terdphong.mahawong@syngenta.com","",25,"19","61/2 M.4, Aoptom","Samko","TH-15","14.60541","100.19959","Mr. Wichean Somchit","1.56",275,105,2,3.2,15.4
+"289",105,1,"2015-11-04","TH","","terdphong.mahawong@syngenta.com","",25,"19","61/2 M.4, Aoptom","Samko","TH-15","14.60541","100.19959","Mr. Wichean Somchit","1.56",276,105,3,3.4,15
+"290",106,1,"2015-11-04","TH","","terdphong.mahawong@syngenta.com","",25,"20","55 M.4, Aoptom","Samko","TH-15","14.60774","100.20596","Mrs.Lea Chotwong","1.25",277,106,1,3.4,15.6
+"291",106,1,"2015-11-04","TH","","terdphong.mahawong@syngenta.com","",25,"20","55 M.4, Aoptom","Samko","TH-15","14.60774","100.20596","Mrs.Lea Chotwong","1.25",278,106,2,3,15.4
+"292",106,1,"2015-11-04","TH","","terdphong.mahawong@syngenta.com","",25,"20","55 M.4, Aoptom","Samko","TH-15","14.60774","100.20596","Mrs.Lea Chotwong","1.25",279,106,3,3.2,15.5
+"293",107,1,"2015-11-04","VN","","s.jaisong@irri.org","",4,"16","Minh Duc","Tu Ky","VN-61","106.3898","20.7904","Le Thi Tham","0.06",280,107,1,3.4,14.3
+"294",107,1,"2015-11-04","VN","","s.jaisong@irri.org","",4,"16","Minh Duc","Tu Ky","VN-61","106.3898","20.7904","Le Thi Tham","0.06",281,107,2,3.4,14.6
+"295",107,1,"2015-11-04","VN","","s.jaisong@irri.org","",4,"16","Minh Duc","Tu Ky","VN-61","106.3898","20.7904","Le Thi Tham","0.06",282,107,3,3.6,14.4
+"296",108,1,"2015-11-04","VN","","s.jaisong@irri.org","",4,"19","Minh Duc","Tu Ky","VN-61","20.7907","106.3899","Nguyen Thi Thoa","0.07",283,108,1,5,20.9
+"297",108,1,"2015-11-04","VN","","s.jaisong@irri.org","",4,"19","Minh Duc","Tu Ky","VN-61","20.7907","106.3899","Nguyen Thi Thoa","0.07",284,108,2,5,18.9
+"298",108,1,"2015-11-04","VN","","s.jaisong@irri.org","",4,"19","Minh Duc","Tu Ky","VN-61","20.7907","106.3899","Nguyen Thi Thoa","0.07",285,108,3,4.8,19.8
+"299",109,1,"2015-11-04","VN","","s.jaisong@irri.org","",4,"20","Minh Duc","Tu Ky","VN-61","20.7906","106.3899","Le Thi Phan","0.06",NA,NA,NA,NA,NA
+"300",110,2,"2015-11-04","IN","","s.jaisong@irri.org","",4,"F1","-","Umayalpuram","IN-TN","11.064866666666667","79.56215","Manimaran","1",412,110,1,1.59,14
+"301",110,2,"2015-11-04","IN","","s.jaisong@irri.org","",4,"F1","-","Umayalpuram","IN-TN","11.064866666666667","79.56215","Manimaran","1",413,110,2,1.68,14
+"302",110,2,"2015-11-04","IN","","s.jaisong@irri.org","",4,"F1","-","Umayalpuram","IN-TN","11.064866666666667","79.56215","Manimaran","1",414,110,3,1.43,14
+"303",111,1,"2015-11-04","VN","","s.jaisong@irri.org","",4,"17","Minh Duc","Tu Ky","VN-61","20.7906","106.3899","Mai Thi Sang","0.10",286,111,1,3,14
+"304",111,1,"2015-11-04","VN","","s.jaisong@irri.org","",4,"17","Minh Duc","Tu Ky","VN-61","20.7906","106.3899","Mai Thi Sang","0.10",287,111,2,2.8,14.6
+"305",111,1,"2015-11-04","VN","","s.jaisong@irri.org","",4,"17","Minh Duc","Tu Ky","VN-61","20.7906","106.3899","Mai Thi Sang","0.10",288,111,3,2.8,14.8
+"306",112,1,"2015-11-04","VN","","s.jaisong@irri.org","",4,"18","Minh Duc","Tu Ky","VN-61","20.7906","106.3899","Pham Van Thanh","0.08",289,112,1,4.8,11.7
+"307",112,1,"2015-11-04","VN","","s.jaisong@irri.org","",4,"18","Minh Duc","Tu Ky","VN-61","20.7906","106.3899","Pham Van Thanh","0.08",290,112,2,4.6,11.9
+"308",112,1,"2015-11-04","VN","","s.jaisong@irri.org","",4,"18","Minh Duc","Tu Ky","VN-61","20.7906","106.3899","Pham Van Thanh","0.08",291,112,3,4.4,11.1
+"309",113,1,"2015-11-04","VN","","s.jaisong@irri.org","",4,"7","Lam Hamlet, Minh Duc","Tu Ky","VN-61","20.47703","106.23194","Mai Van Ke","0.03",292,113,1,6,14
+"310",113,1,"2015-11-04","VN","","s.jaisong@irri.org","",4,"7","Lam Hamlet, Minh Duc","Tu Ky","VN-61","20.47703","106.23194","Mai Van Ke","0.03",293,113,2,5.6,13.5
+"311",113,1,"2015-11-04","VN","","s.jaisong@irri.org","",4,"7","Lam Hamlet, Minh Duc","Tu Ky","VN-61","20.47703","106.23194","Mai Van Ke","0.03",294,113,3,5.9,14
+"312",114,4,"2015-11-04","VN","","s.jaisong@irri.org","",4,"1","Minh Duc","Tu Ky","VN-61","20.800327","106.3919","Vu Thi Van","0.08",295,114,1,2.2,15.1
+"313",114,4,"2015-11-04","VN","","s.jaisong@irri.org","",4,"1","Minh Duc","Tu Ky","VN-61","20.800327","106.3919","Vu Thi Van","0.08",296,114,2,2.5,13.5
+"314",114,4,"2015-11-04","VN","","s.jaisong@irri.org","",4,"1","Minh Duc","Tu Ky","VN-61","20.800327","106.3919","Vu Thi Van","0.08",297,114,3,2.1,14.5
+"315",115,4,"2015-11-04","VN","","s.jaisong@irri.org","",4,"2","Minh Duc","Tu Ky","VN-61","20.799788","106.3929","Vu Thi Tan","0.06",298,115,1,2.8,13.7
+"316",115,4,"2015-11-04","VN","","s.jaisong@irri.org","",4,"2","Minh Duc","Tu Ky","VN-61","20.799788","106.3929","Vu Thi Tan","0.06",299,115,2,2.9,14.5
+"317",115,4,"2015-11-04","VN","","s.jaisong@irri.org","",4,"2","Minh Duc","Tu Ky","VN-61","20.799788","106.3929","Vu Thi Tan","0.06",300,115,3,3,13.6
+"318",116,2,"2015-11-05","ID","","s.jaisong@irri.org","",4,"L","Kertawaluya","Karawang","ID-JB","-6.3076","107.471","Bpk. Resi","0.75",301,116,1,1.3,15.4
+"319",116,2,"2015-11-05","ID","","s.jaisong@irri.org","",4,"L","Kertawaluya","Karawang","ID-JB","-6.3076","107.471","Bpk. Resi","0.75",302,116,2,0.9,15.9
+"320",116,2,"2015-11-05","ID","","s.jaisong@irri.org","",4,"L","Kertawaluya","Karawang","ID-JB","-6.3076","107.471","Bpk. Resi","0.75",303,116,3,1.1,16.3
+"321",117,1,"2015-11-05","VN","","s.jaisong@irri.org","",4,"6","Lam Hamlet, Minh Duc","Tu Ky","VN-61","20.47462","106.23147","Pham Van Binh","0.06",304,117,1,6.1,15.7
+"322",117,1,"2015-11-05","VN","","s.jaisong@irri.org","",4,"6","Lam Hamlet, Minh Duc","Tu Ky","VN-61","20.47462","106.23147","Pham Van Binh","0.06",305,117,2,6,15.5
+"323",117,1,"2015-11-05","VN","","s.jaisong@irri.org","",4,"6","Lam Hamlet, Minh Duc","Tu Ky","VN-61","20.47462","106.23147","Pham Van Binh","0.06",306,117,3,6.3,16
+"324",118,1,"2015-11-05","VN","","s.jaisong@irri.org","",4,"8","Lam Hamlet, Minh Duc","Tu Ky","VN-61","20.47700","106.23183","Mai Van De","0.03",307,118,1,5.2,14
+"325",118,1,"2015-11-05","VN","","s.jaisong@irri.org","",4,"8","Lam Hamlet, Minh Duc","Tu Ky","VN-61","20.47700","106.23183","Mai Van De","0.03",308,118,2,5.4,14.3
+"326",118,1,"2015-11-05","VN","","s.jaisong@irri.org","",4,"8","Lam Hamlet, Minh Duc","Tu Ky","VN-61","20.47700","106.23183","Mai Van De","0.03",309,118,3,5.35,14.5
+"327",119,4,"2015-11-05","VN","","s.jaisong@irri.org","",4,"3","Minh Duc","Tu Ky","VN-61","20.797268","106.3859","Nguyen Thi Nguyet","0.08",310,119,1,3,14.5
+"328",119,4,"2015-11-05","VN","","s.jaisong@irri.org","",4,"3","Minh Duc","Tu Ky","VN-61","20.797268","106.3859","Nguyen Thi Nguyet","0.08",311,119,2,3.2,16.1
+"329",119,4,"2015-11-05","VN","","s.jaisong@irri.org","",4,"3","Minh Duc","Tu Ky","VN-61","20.797268","106.3859","Nguyen Thi Nguyet","0.08",312,119,3,2.8,15.4
+"330",120,4,"2015-11-05","VN","","s.jaisong@irri.org","",4,"4","Minh Duc","Tu Ky","VN-61","20.799427","106.3945","Nguyen Thi Ly","0.11",313,120,1,1.9,15.6
+"331",120,4,"2015-11-05","VN","","s.jaisong@irri.org","",4,"4","Minh Duc","Tu Ky","VN-61","20.799427","106.3945","Nguyen Thi Ly","0.11",314,120,2,1.8,14.3
+"332",120,4,"2015-11-05","VN","","s.jaisong@irri.org","",4,"4","Minh Duc","Tu Ky","VN-61","20.799427","106.3945","Nguyen Thi Ly","0.11",315,120,3,2,14
+"333",121,4,"2015-11-05","VN","","s.jaisong@irri.org","",4,"5","Minh Duc","Tu Ky","VN-61","20.797781","106.3860","Nguyen Van Bach","0.10",316,121,1,2.4,16.1
+"334",121,4,"2015-11-05","VN","","s.jaisong@irri.org","",4,"5","Minh Duc","Tu Ky","VN-61","20.797781","106.3860","Nguyen Van Bach","0.10",317,121,2,2.6,17.2
+"335",121,4,"2015-11-05","VN","","s.jaisong@irri.org","",4,"5","Minh Duc","Tu Ky","VN-61","20.797781","106.3860","Nguyen Van Bach","0.10",318,121,3,2.4,16.7
+"336",122,4,"2015-11-05","VN","","s.jaisong@irri.org","",4,"6","Minh Duc","Tu Ky","VN-61","20.821666666666665","106.39861111111112","Mai Thi Thoa","0.07",319,122,1,3,15.9
+"337",122,4,"2015-11-05","VN","","s.jaisong@irri.org","",4,"6","Minh Duc","Tu Ky","VN-61","20.821666666666665","106.39861111111112","Mai Thi Thoa","0.07",320,122,2,2.9,16.2
+"338",122,4,"2015-11-05","VN","","s.jaisong@irri.org","",4,"6","Minh Duc","Tu Ky","VN-61","20.821666666666665","106.39861111111112","Mai Thi Thoa","0.07",321,122,3,2.7,15.2
+"339",123,2,"2015-11-07","ID","","s.jaisong@irri.org","",4,"M","Kertawaluya","Karawang","ID-JB","-6.3044","107.472","Bpk. Kanda","1",322,123,1,1.6,20.2
+"340",123,2,"2015-11-07","ID","","s.jaisong@irri.org","",4,"M","Kertawaluya","Karawang","ID-JB","-6.3044","107.472","Bpk. Kanda","1",323,123,2,1.9,19.2
+"341",123,2,"2015-11-07","ID","","s.jaisong@irri.org","",4,"M","Kertawaluya","Karawang","ID-JB","-6.3044","107.472","Bpk. Kanda","1",324,123,3,1.45,22
+"342",124,2,"2015-11-07","ID","","s.jaisong@irri.org","",4,"O","Kertawaluya","Karawang","ID-JB","-6.3076","107.47136666666667","Bpk. Iwan","0.75",325,124,1,1.45,23.4
+"343",124,2,"2015-11-07","ID","","s.jaisong@irri.org","",4,"O","Kertawaluya","Karawang","ID-JB","-6.3076","107.47136666666667","Bpk. Iwan","0.75",326,124,2,1.5,21.8
+"344",124,2,"2015-11-07","ID","","s.jaisong@irri.org","",4,"O","Kertawaluya","Karawang","ID-JB","-6.3076","107.47136666666667","Bpk. Iwan","0.75",327,124,3,1.15,21.8
+"345",125,2,"2015-11-07","ID","","s.jaisong@irri.org","",4,"N","Kertawaluya","Karawang","ID-JB","-6.304333333333333","107.47285","Bpk. Ndan","0.5",328,125,1,1.55,19.7
+"346",125,2,"2015-11-07","ID","","s.jaisong@irri.org","",4,"N","Kertawaluya","Karawang","ID-JB","-6.304333333333333","107.47285","Bpk. Ndan","0.5",329,125,2,1.8,19
+"347",125,2,"2015-11-07","ID","","s.jaisong@irri.org","",4,"N","Kertawaluya","Karawang","ID-JB","-6.304333333333333","107.47285","Bpk. Ndan","0.5",330,125,3,1.6,20.9
+"348",126,4,"2015-11-07","VN","","s.jaisong@irri.org","",4,"7","Minh Duc","Tu Ky","VN-61","20.801944444444445","106.38388888888889","Mai Van Bi","0.07",331,126,1,3.1,17
+"349",126,4,"2015-11-07","VN","","s.jaisong@irri.org","",4,"7","Minh Duc","Tu Ky","VN-61","20.801944444444445","106.38388888888889","Mai Van Bi","0.07",332,126,2,2.7,16.2
+"350",126,4,"2015-11-07","VN","","s.jaisong@irri.org","",4,"7","Minh Duc","Tu Ky","VN-61","20.801944444444445","106.38388888888889","Mai Van Bi","0.07",333,126,3,3.1,16.4
+"351",127,1,"2015-11-08","IN","","s.jaisong@irri.org","",4,"1","Harianta","-","IN-OR","20.31765","85.96695","Smruti rojan mohanty","1",NA,NA,NA,NA,NA
+"352",128,4,"2015-11-08","VN","","s.jaisong@irri.org","",4,"8","Minh Duc","Tu Ky","VN-61","20.801111111111112","106.3786111111111","Nguyen Thi Man","0.07",334,128,1,2.8,13.9
+"353",128,4,"2015-11-08","VN","","s.jaisong@irri.org","",4,"8","Minh Duc","Tu Ky","VN-61","20.801111111111112","106.3786111111111","Nguyen Thi Man","0.07",335,128,2,2.7,13.6
+"354",128,4,"2015-11-08","VN","","s.jaisong@irri.org","",4,"8","Minh Duc","Tu Ky","VN-61","20.801111111111112","106.3786111111111","Nguyen Thi Man","0.07",336,128,3,2.2,12.6
+"355",129,1,"2015-11-08","VN","","s.jaisong@irri.org","",4,"9","Lam Hamlet,Minh Duc","Tu Ky","VN-61","20.47413","106.23097","Nguyen Ven Khiem","0.04",337,129,1,6,17.3
+"356",129,1,"2015-11-08","VN","","s.jaisong@irri.org","",4,"9","Lam Hamlet,Minh Duc","Tu Ky","VN-61","20.47413","106.23097","Nguyen Ven Khiem","0.04",338,129,2,6.3,17.7
+"357",129,1,"2015-11-08","VN","","s.jaisong@irri.org","",4,"9","Lam Hamlet,Minh Duc","Tu Ky","VN-61","20.47413","106.23097","Nguyen Ven Khiem","0.04",339,129,3,6,17.5
+"358",130,2,"2015-11-09","VN","","s.jaisong@irri.org","",4,"10","Lam Hamlet, Minh Duc","Tu Ky","VN-61","20.47610","106.22963","Hoang Van On","0.06",340,130,1,6.2,17
+"359",130,2,"2015-11-09","VN","","s.jaisong@irri.org","",4,"10","Lam Hamlet, Minh Duc","Tu Ky","VN-61","20.47610","106.22963","Hoang Van On","0.06",341,130,2,5.8,16
+"360",130,2,"2015-11-09","VN","","s.jaisong@irri.org","",4,"10","Lam Hamlet, Minh Duc","Tu Ky","VN-61","20.47610","106.22963","Hoang Van On","0.06",342,130,3,6,16.3
+"361",131,2,"2015-11-09","VN","","s.jaisong@irri.org","",4,"11","Dong Hamlet, Minh Duc","Tu Ky","VN-61","20.4728","106.2418","Nguyen Van Ngoc","0.09",343,131,1,4.1,13.9
+"362",131,2,"2015-11-09","VN","","s.jaisong@irri.org","",4,"11","Dong Hamlet, Minh Duc","Tu Ky","VN-61","20.4728","106.2418","Nguyen Van Ngoc","0.09",344,131,2,4.4,14.2
+"363",131,2,"2015-11-09","VN","","s.jaisong@irri.org","",4,"11","Dong Hamlet, Minh Duc","Tu Ky","VN-61","20.4728","106.2418","Nguyen Van Ngoc","0.09",345,131,3,4.3,14
+"364",132,2,"2015-11-09","VN","","s.jaisong@irri.org","",4,"12","Dong hamlet, Minh Duc","Tu Ky","VN-61","20.4729","106.2420","Nguyen Van Khoa","0.06",346,132,1,4,14
+"365",132,2,"2015-11-09","VN","","s.jaisong@irri.org","",4,"12","Dong hamlet, Minh Duc","Tu Ky","VN-61","20.4729","106.2420","Nguyen Van Khoa","0.06",347,132,2,4.5,14.2
+"366",132,2,"2015-11-09","VN","","s.jaisong@irri.org","",4,"12","Dong hamlet, Minh Duc","Tu Ky","VN-61","20.4729","106.2420","Nguyen Van Khoa","0.06",348,132,3,4.8,14
+"367",133,2,"2015-11-09","VN","","s.jaisong@irri.org","",4,"13","Dong hamlet, Minh Duc","Tu Ky","VN-61","20.4724","106.2323","Nguyen Phuc Chu","0.04",349,133,1,5.7,19.9
+"368",133,2,"2015-11-09","VN","","s.jaisong@irri.org","",4,"13","Dong hamlet, Minh Duc","Tu Ky","VN-61","20.4724","106.2323","Nguyen Phuc Chu","0.04",350,133,2,6,20
+"369",133,2,"2015-11-09","VN","","s.jaisong@irri.org","",4,"13","Dong hamlet, Minh Duc","Tu Ky","VN-61","20.4724","106.2323","Nguyen Phuc Chu","0.04",351,133,3,5.3,19.7
+"370",134,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"12","Dong hamlet, Minh Duc","Tu Ky","VN-61","20.4729","106.2420","Nguyen Van Khoa","0.06",352,134,1,4,14
+"371",134,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"12","Dong hamlet, Minh Duc","Tu Ky","VN-61","20.4729","106.2420","Nguyen Van Khoa","0.06",353,134,2,4.5,14.2
+"372",134,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"12","Dong hamlet, Minh Duc","Tu Ky","VN-61","20.4729","106.2420","Nguyen Van Khoa","0.06",354,134,3,4.8,14
+"373",135,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"11","Dong hamlet, Minh Duc","Tu Ky","VN-61","20.4728","106.2418","Nguyen Van Ngoc","0.09",355,135,1,4.1,13.9
+"374",135,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"11","Dong hamlet, Minh Duc","Tu Ky","VN-61","20.4728","106.2418","Nguyen Van Ngoc","0.09",356,135,2,4.4,14.2
+"375",135,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"11","Dong hamlet, Minh Duc","Tu Ky","VN-61","20.4728","106.2418","Nguyen Van Ngoc","0.09",357,135,3,4.3,14
+"376",136,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"13","Dong hamlet, Minh Duc","Tu Ky","VN-61","20.4724","106.2323","Nguyen Phuc Chu","0.04",358,136,1,5.7,19.9
+"377",136,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"13","Dong hamlet, Minh Duc","Tu Ky","VN-61","20.4724","106.2323","Nguyen Phuc Chu","0.04",359,136,2,6,20
+"378",136,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"13","Dong hamlet, Minh Duc","Tu Ky","VN-61","20.4724","106.2323","Nguyen Phuc Chu","0.04",360,136,3,5.3,19.7
+"379",137,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"10","Lam Hamlet, Minh Duc","Tu Ky","VN-61","20.47610","106.22963","Hoang Van On","0.06",361,137,1,6.2,17
+"380",137,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"10","Lam Hamlet, Minh Duc","Tu Ky","VN-61","20.47610","106.22963","Hoang Van On","0.06",362,137,2,5.8,16
+"381",137,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"10","Lam Hamlet, Minh Duc","Tu Ky","VN-61","20.47610","106.22963","Hoang Van On","0.06",363,137,3,6,16.3
+"382",138,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"14","Dong hamlet, Minh Duc","Tu Ky","VN-61","20.4725","106.2322","Mai Van Nghia","0.06",364,138,1,4,13.9
+"383",138,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"14","Dong hamlet, Minh Duc","Tu Ky","VN-61","20.4725","106.2322","Mai Van Nghia","0.06",365,138,2,3.8,13.9
+"384",138,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"14","Dong hamlet, Minh Duc","Tu Ky","VN-61","20.4725","106.2322","Mai Van Nghia","0.06",366,138,3,4.2,13.9
+"385",139,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"28","Minh Duc","Tu Ky","VN-61","20.800327","106.3919","Nguyen Thi Van","0.10",367,139,1,6.2,13.3
+"386",139,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"28","Minh Duc","Tu Ky","VN-61","20.800327","106.3919","Nguyen Thi Van","0.10",368,139,2,5.6,14.1
+"387",139,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"28","Minh Duc","Tu Ky","VN-61","20.800327","106.3919","Nguyen Thi Van","0.10",369,139,3,6,14.5
+"388",140,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"29","Minh Duc","Tu Ky","VN-61","20.797781","106.3860","Nguyen Van Bach","0.10",370,140,1,6.5,14.6
+"389",140,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"29","Minh Duc","Tu Ky","VN-61","20.797781","106.3860","Nguyen Van Bach","0.10",371,140,2,6.2,15.2
+"390",140,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"29","Minh Duc","Tu Ky","VN-61","20.797781","106.3860","Nguyen Van Bach","0.10",372,140,3,6.45,15.1
+"391",141,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"30","Minh Duc","Tu Ky","VN-61","20.797268","106.3859","Nguyen Thi Nguyet","0.09",373,141,1,6.5,12.7
+"392",141,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"30","Minh Duc","Tu Ky","VN-61","20.797268","106.3859","Nguyen Thi Nguyet","0.09",374,141,2,6.4,13.5
+"393",141,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"30","Minh Duc","Tu Ky","VN-61","20.797268","106.3859","Nguyen Thi Nguyet","0.09",375,141,3,6.15,15.9
+"394",142,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"15","Minh Duc","Tu Ky","VN-61","20.4719","106.2252","Pham Van Binh","0.03",376,142,1,6.1,20.5
+"395",142,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"15","Minh Duc","Tu Ky","VN-61","20.4719","106.2252","Pham Van Binh","0.03",377,142,2,5.8,20.1
+"396",142,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"15","Minh Duc","Tu Ky","VN-61","20.4719","106.2252","Pham Van Binh","0.03",378,142,3,5.9,21
+"397",143,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"21","Quan Hamlet, Minh Duc","Tu Ky","VN-61","20.80138888888889","106.3825","Tran Thi La","0.07",379,143,1,4.86,15.2
+"398",143,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"21","Quan Hamlet, Minh Duc","Tu Ky","VN-61","20.80138888888889","106.3825","Tran Thi La","0.07",380,143,2,5.12,15.5
+"399",143,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"21","Quan Hamlet, Minh Duc","Tu Ky","VN-61","20.80138888888889","106.3825","Tran Thi La","0.07",381,143,3,4.68,14.2
+"400",144,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"22","Quan Hamlet, Minh Duc","Tu Ky","VN-61","20.801111111111112","106.3786111111111","Nguyen Thi Man","0.07",382,144,1,4.48,16.9
+"401",144,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"22","Quan Hamlet, Minh Duc","Tu Ky","VN-61","20.801111111111112","106.3786111111111","Nguyen Thi Man","0.07",383,144,2,4.25,16.3
+"402",144,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"22","Quan Hamlet, Minh Duc","Tu Ky","VN-61","20.801111111111112","106.3786111111111","Nguyen Thi Man","0.07",384,144,3,4.37,16.6
+"403",145,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"23","Quan Hamlet, Minh Duc","Tu Ky","VN-61","20.821666666666665","106.39861111111112","Mai Thi Thoa","0.07",385,145,1,5.72,15.7
+"404",145,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"23","Quan Hamlet, Minh Duc","Tu Ky","VN-61","20.821666666666665","106.39861111111112","Mai Thi Thoa","0.07",386,145,2,5.24,15
+"405",145,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"23","Quan Hamlet, Minh Duc","Tu Ky","VN-61","20.821666666666665","106.39861111111112","Mai Thi Thoa","0.07",387,145,3,5.1,14.8
+"406",146,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"24","Quan Hamlet, Minh Duc","Tu Ky","VN-61","20.80888888888889","106.38361111111112","Pham Van Tai","0.10",388,146,1,4.16,14.1
+"407",146,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"24","Quan Hamlet, Minh Duc","Tu Ky","VN-61","20.80888888888889","106.38361111111112","Pham Van Tai","0.10",389,146,2,4.24,14.5
+"408",146,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"24","Quan Hamlet, Minh Duc","Tu Ky","VN-61","20.80888888888889","106.38361111111112","Pham Van Tai","0.10",390,146,3,4.08,13.9
+"409",147,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"25","Quan Hamlet, Minh Duc","Tu Ky","VN-61","20.801944444444445","106.38388888888889","Mai Van Bi","0.07",391,147,1,5.48,15
+"410",147,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"25","Quan Hamlet, Minh Duc","Tu Ky","VN-61","20.801944444444445","106.38388888888889","Mai Van Bi","0.07",392,147,2,4.96,14.7
+"411",147,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"25","Quan Hamlet, Minh Duc","Tu Ky","VN-61","20.801944444444445","106.38388888888889","Mai Van Bi","0.07",393,147,3,6.2,15.3
+"412",148,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"26","Minh Duc","Tu Ky","VN-61","20.799427","106.3945","Nguyen Thi Ly","0.10",394,148,1,3.6,14.5
+"413",148,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"26","Minh Duc","Tu Ky","VN-61","20.799427","106.3945","Nguyen Thi Ly","0.10",395,148,2,4,15
+"414",148,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"26","Minh Duc","Tu Ky","VN-61","20.799427","106.3945","Nguyen Thi Ly","0.10",396,148,3,3.8,14.8
+"415",149,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"27","Minh Duc","Tu Ky","VN-61","20.799788","106.3929","Vu Thi Tan","0.72",397,149,1,6,16.3
+"416",149,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"27","Minh Duc","Tu Ky","VN-61","20.799788","106.3929","Vu Thi Tan","0.72",398,149,2,6.64,15.9
+"417",149,1,"2015-11-10","VN","","s.jaisong@irri.org","",4,"27","Minh Duc","Tu Ky","VN-61","20.799788","106.3929","Vu Thi Tan","0.72",399,149,3,6.68,15.7
+"418",150,2,"2015-11-16","IN","","s.jaisong@irri.org","",4,"F2","Keelaveli","-","IN-TN","11.063483333333334","79.56488333333333","Premavathy","5",415,150,1,1.51,14
+"419",150,2,"2015-11-16","IN","","s.jaisong@irri.org","",4,"F2","Keelaveli","-","IN-TN","11.063483333333334","79.56488333333333","Premavathy","5",416,150,2,1.59,14
+"420",150,2,"2015-11-16","IN","","s.jaisong@irri.org","",4,"F2","Keelaveli","-","IN-TN","11.063483333333334","79.56488333333333","Premavathy","5",417,150,3,1.31,14
+"421",151,4,"2015-11-18","VN","","s.jaisong@irri.org","",4,"9","Minh Duc","Tu Ky","VN-61","20.80888888888889","106.38361111111112","Pham Van Tai","0.10",400,151,1,2.5,12.8
+"422",151,4,"2015-11-18","VN","","s.jaisong@irri.org","",4,"9","Minh Duc","Tu Ky","VN-61","20.80888888888889","106.38361111111112","Pham Van Tai","0.10",401,151,2,2.5,15.4
+"423",151,4,"2015-11-18","VN","","s.jaisong@irri.org","",4,"9","Minh Duc","Tu Ky","VN-61","20.80888888888889","106.38361111111112","Pham Van Tai","0.10",402,151,3,2,13.6
+"424",152,4,"2015-11-18","VN","","s.jaisong@irri.org","",4,"10","Minh Duc","Tu Ky","VN-61","20.80138888888889","106.3825","Tran Thi La","0.07",403,152,1,2.5,15.3
+"425",152,4,"2015-11-18","VN","","s.jaisong@irri.org","",4,"10","Minh Duc","Tu Ky","VN-61","20.80138888888889","106.3825","Tran Thi La","0.07",404,152,2,2.9,161
+"426",152,4,"2015-11-18","VN","","s.jaisong@irri.org","",4,"10","Minh Duc","Tu Ky","VN-61","20.80138888888889","106.3825","Tran Thi La","0.07",405,152,3,2.7,16.9
+"427",153,4,"2015-11-18","VN","","s.jaisong@irri.org","",4,"11","Minh Duc","Tu Ky","VN-61","20.7906","106.3899","Le Thi Phan","0.05",406,153,1,2.4,14.2
+"428",153,4,"2015-11-18","VN","","s.jaisong@irri.org","",4,"11","Minh Duc","Tu Ky","VN-61","20.7906","106.3899","Le Thi Phan","0.05",407,153,2,2.7,14.6
+"429",153,4,"2015-11-18","VN","","s.jaisong@irri.org","",4,"11","Minh Duc","Tu Ky","VN-61","20.7906","106.3899","Le Thi Phan","0.05",408,153,3,2.4,14.3
+"430",154,2,"2015-11-19","IN","","s.jaisong@irri.org","",4,"F3","Vikaramakuthaiam","-","IN-TN","11.0642","79.56771666666667","Ponayan","1.5",409,154,1,1.28,14
+"431",154,2,"2015-11-19","IN","","s.jaisong@irri.org","",4,"F3","Vikaramakuthaiam","-","IN-TN","11.0642","79.56771666666667","Ponayan","1.5",410,154,2,1.31,14
+"432",154,2,"2015-11-19","IN","","s.jaisong@irri.org","",4,"F3","Vikaramakuthaiam","-","IN-TN","11.0642","79.56771666666667","Ponayan","1.5",411,154,3,1.43,14
+"433",155,2,"2015-11-19","IN","","s.jaisong@irri.org","",4,"F4","Vikaramakuthalam","-","IN-TN","11.064733333333333","79.57055","Rajaraman","2",418,155,1,1.68,14
+"434",155,2,"2015-11-19","IN","","s.jaisong@irri.org","",4,"F4","Vikaramakuthalam","-","IN-TN","11.064733333333333","79.57055","Rajaraman","2",419,155,2,1.31,14
+"435",155,2,"2015-11-19","IN","","s.jaisong@irri.org","",4,"F4","Vikaramakuthalam","-","IN-TN","11.064733333333333","79.57055","Rajaraman","2",420,155,3,1.75,14
+"436",156,2,"2015-11-19","IN","","s.jaisong@irri.org","",4,"F5","Vikaramakuthalam","-","IN-TN","11.067016666666667","79.56835","Baskar","1",421,156,1,1.81,14
+"437",156,2,"2015-11-19","IN","","s.jaisong@irri.org","",4,"F5","Vikaramakuthalam","-","IN-TN","11.067016666666667","79.56835","Baskar","1",422,156,2,1.62,14
+"438",156,2,"2015-11-19","IN","","s.jaisong@irri.org","",4,"F5","Vikaramakuthalam","-","IN-TN","11.067016666666667","79.56835","Baskar","1",423,156,3,1.5,14
+"439",157,2,"2015-11-19","IN","","s.jaisong@irri.org","",4,"F6","Kachar","-","IN-TN","11.052666666666667","79.56506666666667","Seenupillai","1",424,157,1,1.68,14
+"440",157,2,"2015-11-19","IN","","s.jaisong@irri.org","",4,"F6","Kachar","-","IN-TN","11.052666666666667","79.56506666666667","Seenupillai","1",425,157,2,1.84,14
+"441",157,2,"2015-11-19","IN","","s.jaisong@irri.org","",4,"F6","Kachar","-","IN-TN","11.052666666666667","79.56506666666667","Seenupillai","1",426,157,3,1.43,14
+"442",158,2,"2015-11-20","IN","","s.jaisong@irri.org","",4,"F7","Therizhathur","-","IN-TN","11.05355","79.56738333333334","Saravanan","1",427,158,1,1.4,14
+"443",158,2,"2015-11-20","IN","","s.jaisong@irri.org","",4,"F7","Therizhathur","-","IN-TN","11.05355","79.56738333333334","Saravanan","1",428,158,2,1.5,14
+"444",158,2,"2015-11-20","IN","","s.jaisong@irri.org","",4,"F7","Therizhathur","-","IN-TN","11.05355","79.56738333333334","Saravanan","1",429,158,3,1.62,14
+"445",159,2,"2015-11-20","IN","","s.jaisong@irri.org","",4,"F8","Katcher","-","IN-TN","11.05345","79.57101666666667","Kumar","0.5",430,159,1,1.68,14
+"446",159,2,"2015-11-20","IN","","s.jaisong@irri.org","",4,"F8","Katcher","-","IN-TN","11.05345","79.57101666666667","Kumar","0.5",431,159,2,1.28,14
+"447",159,2,"2015-11-20","IN","","s.jaisong@irri.org","",4,"F8","Katcher","-","IN-TN","11.05345","79.57101666666667","Kumar","0.5",432,159,3,1.5,14
+"448",160,2,"2015-11-20","IN","","s.jaisong@irri.org","",4,"F9","Regupathykattalai","-","IN-TN","11.045133333333334","79.56311666666667","Bashiyam","6",433,160,1,1.25,14
+"449",160,2,"2015-11-20","IN","","s.jaisong@irri.org","",4,"F9","Regupathykattalai","-","IN-TN","11.045133333333334","79.56311666666667","Bashiyam","6",434,160,2,1.18,14
+"450",160,2,"2015-11-20","IN","","s.jaisong@irri.org","",4,"F9","Regupathykattalai","-","IN-TN","11.045133333333334","79.56311666666667","Bashiyam","6",435,160,3,1.12,14
+"451",161,4,"2015-11-22","VN","","s.jaisong@irri.org","",4,"12","Minh Duc","Tu Ky","VN-61","20.7906","106.3899","Mai Thi Sang","0.08",436,161,1,2.9,14.4
+"452",161,4,"2015-11-22","VN","","s.jaisong@irri.org","",4,"12","Minh Duc","Tu Ky","VN-61","20.7906","106.3899","Mai Thi Sang","0.08",437,161,2,2.5,15.4
+"453",161,4,"2015-11-22","VN","","s.jaisong@irri.org","",4,"12","Minh Duc","Tu Ky","VN-61","20.7906","106.3899","Mai Thi Sang","0.08",438,161,3,2.9,15.3
+"454",162,4,"2015-11-22","VN","","s.jaisong@irri.org","",4,"13","Minh Duc","Tu Ky","VN-61","20.7904","106.3898","Le Thi Tham","0.07",439,162,1,20,14.3
+"455",162,4,"2015-11-22","VN","","s.jaisong@irri.org","",4,"13","Minh Duc","Tu Ky","VN-61","20.7904","106.3898","Le Thi Tham","0.07",440,162,2,1.9,14.2
+"456",162,4,"2015-11-22","VN","","s.jaisong@irri.org","",4,"13","Minh Duc","Tu Ky","VN-61","20.7904","106.3898","Le Thi Tham","0.07",441,162,3,1.9,14.1
+"457",163,2,"2015-11-22","IN","","s.jaisong@irri.org","",4,"F10","Regupathykattalai","-","IN-TN","11.041583333333334","79.56478333333334","Suthakar","3",442,163,1,1.62,14
+"458",163,2,"2015-11-22","IN","","s.jaisong@irri.org","",4,"F10","Regupathykattalai","-","IN-TN","11.041583333333334","79.56478333333334","Suthakar","3",443,163,2,1.5,14
+"459",163,2,"2015-11-22","IN","","s.jaisong@irri.org","",4,"F10","Regupathykattalai","-","IN-TN","11.041583333333334","79.56478333333334","Suthakar","3",444,163,3,1.62,14
+"460",164,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"14","Minh Duc","Tu Ky","VN-61","20.7906","106.3899","Pham Van Thanh","0.04",445,164,1,2.4,14.3
+"461",164,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"14","Minh Duc","Tu Ky","VN-61","20.7906","106.3899","Pham Van Thanh","0.04",446,164,2,2.3,14
+"462",164,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"14","Minh Duc","Tu Ky","VN-61","20.7906","106.3899","Pham Van Thanh","0.04",447,164,3,2.4,13.5
+"463",165,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"15","Minh Duc","Tu Ky","VN-61","20.7907","106.3899","Nguyen Thi Thoa","0.08",448,165,1,2.6,14.2
+"464",165,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"15","Minh Duc","Tu Ky","VN-61","20.7907","106.3899","Nguyen Thi Thoa","0.08",449,165,2,2.2,14.5
+"465",165,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"15","Minh Duc","Tu Ky","VN-61","20.7907","106.3899","Nguyen Thi Thoa","0.08",450,165,3,2.6,14.5
+"466",166,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"16","Minh Duc","Tu Ky","VN-61","20.4816","106.2334","Nguyen Thi Ngan","0.07",451,166,1,2.2,12.4
+"467",166,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"16","Minh Duc","Tu Ky","VN-61","20.4816","106.2334","Nguyen Thi Ngan","0.07",452,166,2,2.1,12.1
+"468",166,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"16","Minh Duc","Tu Ky","VN-61","20.4816","106.2334","Nguyen Thi Ngan","0.07",453,166,3,2.3,12.5
+"469",167,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"17","Minh Duc","Tu Ky","VN-61","20.4832","106.2351","Phan Thi Yen","0.09",454,167,1,2.5,13.1
+"470",167,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"17","Minh Duc","Tu Ky","VN-61","20.4832","106.2351","Phan Thi Yen","0.09",455,167,2,2.4,13.2
+"471",167,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"17","Minh Duc","Tu Ky","VN-61","20.4832","106.2351","Phan Thi Yen","0.09",456,167,3,2.7,15.8
+"472",168,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"18","Minh Duc","Tu Ky","VN-61","20.4812","106.2329","Vu Dinh Thuan","0.05",457,168,1,2.9,15.9
+"473",168,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"18","Minh Duc","Tu Ky","VN-61","20.4812","106.2329","Vu Dinh Thuan","0.05",458,168,2,2.5,12.2
+"474",168,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"18","Minh Duc","Tu Ky","VN-61","20.4812","106.2329","Vu Dinh Thuan","0.05",459,168,3,3,14.9
+"475",169,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"19","Minh Duc","Tu Ky","VN-61","20.4813","106.2320","Nguyen Van Sinh","0.09",460,169,1,4.7,14.7
+"476",169,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"19","Minh Duc","Tu Ky","VN-61","20.4813","106.2320","Nguyen Van Sinh","0.09",461,169,2,5,15.2
+"477",169,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"19","Minh Duc","Tu Ky","VN-61","20.4813","106.2320","Nguyen Van Sinh","0.09",462,169,3,4.8,14
+"478",170,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"20","Minh Duc","Tu Ky","VN-61","20.8063","106.3933","Nguyen Thi Nghia","0.05",463,170,1,3.5,12
+"479",170,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"20","Minh Duc","Tu Ky","VN-61","20.8063","106.3933","Nguyen Thi Nghia","0.05",464,170,2,3.7,12.4
+"480",170,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"20","Minh Duc","Tu Ky","VN-61","20.8063","106.3933","Nguyen Thi Nghia","0.05",465,170,3,3.4,12.3
+"481",171,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"21","Minh Duc","Tu Ky","VN-61","20.47462","106.23147","Pham Van Binh","0.06",466,171,1,2.5,15
+"482",171,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"21","Minh Duc","Tu Ky","VN-61","20.47462","106.23147","Pham Van Binh","0.06",467,171,2,2.3,14.3
+"483",171,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"21","Minh Duc","Tu Ky","VN-61","20.47462","106.23147","Pham Van Binh","0.06",468,171,3,2.2,14
+"484",172,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"22","Minh Duc","Tu Ky","VN-61","20.4770","106.23183","Mai Van De","0.03",469,172,1,3.1,15.3
+"485",172,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"22","Minh Duc","Tu Ky","VN-61","20.4770","106.23183","Mai Van De","0.03",470,172,2,2.8,15
+"486",172,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"22","Minh Duc","Tu Ky","VN-61","20.4770","106.23183","Mai Van De","0.03",471,172,3,3,14
+"487",173,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"23","Minh Duc","Tu Ky","VN-61","20.47703","106.23194","Mai Van Ke","0.03",472,173,1,3,17
+"488",173,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"23","Minh Duc","Tu Ky","VN-61","20.47703","106.23194","Mai Van Ke","0.03",473,173,2,3.2,17.5
+"489",173,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"23","Minh Duc","Tu Ky","VN-61","20.47703","106.23194","Mai Van Ke","0.03",474,173,3,3,17
+"490",174,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"24","Minh Duc","Tu Ky","VN-61","20.47413","106.23097","Nguyen Van Khiem","0.04",475,174,1,3.1,18
+"491",174,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"24","Minh Duc","Tu Ky","VN-61","20.47413","106.23097","Nguyen Van Khiem","0.04",476,174,2,3,18.2
+"492",174,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"24","Minh Duc","Tu Ky","VN-61","20.47413","106.23097","Nguyen Van Khiem","0.04",477,174,3,3.3,19.1
+"493",175,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"25","Minh Duc","Tu Ky","VN-61","20.47610","106.23963","Hoang Van On","0.06",478,175,1,2.8,14.7
+"494",175,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"25","Minh Duc","Tu Ky","VN-61","20.47610","106.23963","Hoang Van On","0.06",479,175,2,3,17.2
+"495",175,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"25","Minh Duc","Tu Ky","VN-61","20.47610","106.23963","Hoang Van On","0.06",480,175,3,3.2,18
+"496",176,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"26","Minh Duc","Tu Ky","VN-61","20.4715","106.2329","Nguyen Van Than","0.04",481,176,1,2.3,15.9
+"497",176,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"26","Minh Duc","Tu Ky","VN-61","20.4715","106.2329","Nguyen Van Than","0.04",482,176,2,2.4,16.2
+"498",176,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"26","Minh Duc","Tu Ky","VN-61","20.4715","106.2329","Nguyen Van Than","0.04",483,176,3,2.2,15
+"499",177,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"27","Minh Duc","Tu Ky","VN-61","20.47","106.2341","Nguyen Van Phan","0.07",484,177,1,2.5,10
+"500",177,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"27","Minh Duc","Tu Ky","VN-61","20.47","106.2341","Nguyen Van Phan","0.07",485,177,2,2.3,10.2
+"501",177,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"27","Minh Duc","Tu Ky","VN-61","20.47","106.2341","Nguyen Van Phan","0.07",486,177,3,2.3,10
+"502",178,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"28","Minh Duc","Tu Ky","VN-61","20.5152","106.2331","Nguyen Van Ngoc","0.06",487,178,1,2.4,12.4
+"503",178,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"28","Minh Duc","Tu Ky","VN-61","20.5152","106.2331","Nguyen Van Ngoc","0.06",488,178,2,2.5,13
+"504",178,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"28","Minh Duc","Tu Ky","VN-61","20.5152","106.2331","Nguyen Van Ngoc","0.06",489,178,3,2.5,12.5
+"505",179,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"29","Minh Duc","Tu Ky","VN-61","20.4714","106.2331","Nguyen Van Khoa","0.06",490,179,1,2.6,20.4
+"506",179,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"29","Minh Duc","Tu Ky","VN-61","20.4714","106.2331","Nguyen Van Khoa","0.06",491,179,2,2.5,20
+"507",179,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"29","Minh Duc","Tu Ky","VN-61","20.4714","106.2331","Nguyen Van Khoa","0.06",492,179,3,2.8,20.5
+"508",180,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"30","Minh Duc","Tu Ky","VN-61","20.4715","106.2326","Nguyen Phuc Chu","0.03",493,180,1,2.4,13.6
+"509",180,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"30","Minh Duc","Tu Ky","VN-61","20.4715","106.2326","Nguyen Phuc Chu","0.03",494,180,2,2.6,13.8
+"510",180,4,"2015-11-24","VN","","s.jaisong@irri.org","",4,"30","Minh Duc","Tu Ky","VN-61","20.4715","106.2326","Nguyen Phuc Chu","0.03",495,180,3,2.3,13.5
+"511",181,1,"2015-11-29","IN","","s.jaisong@irri.org","",4,"2","Harianta","-","IN-OR","20.321383333333333","85.96281666666667","Bramananda praodan","2",NA,NA,NA,NA,NA
+"512",182,6,"2015-12-04","VN","","minh_khoi.le@syngenta.com","",38,"Khoi0","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.787","106.398317","Le Thi Tham","0.07",496,182,1,2.3,14
+"513",182,6,"2015-12-04","VN","","minh_khoi.le@syngenta.com","",38,"Khoi0","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.787","106.398317","Le Thi Tham","0.07",497,182,2,2.4,14.8
+"514",182,6,"2015-12-04","VN","","minh_khoi.le@syngenta.com","",38,"Khoi0","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.787","106.398317","Le Thi Tham","0.07",498,182,3,2.3,14.3
+"515",183,6,"2015-12-04","VN","","minh_khoi.le@syngenta.com","",38,"Khoi2","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.786","106.398","Mai Thi Sang","0.07",499,183,1,2.6,16
+"516",183,6,"2015-12-04","VN","","minh_khoi.le@syngenta.com","",38,"Khoi2","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.786","106.398","Mai Thi Sang","0.07",500,183,2,2.9,16.2
+"517",183,6,"2015-12-04","VN","","minh_khoi.le@syngenta.com","",38,"Khoi2","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.786","106.398","Mai Thi Sang","0.07",501,183,3,2.7,16
+"518",184,6,"2015-12-05","VN","","minh_khoi.le@syngenta.com","",38,"Khoi_","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.787","106.398","Pham Van Thanh","0.05",502,184,1,2.5,14.5
+"519",184,6,"2015-12-05","VN","","minh_khoi.le@syngenta.com","",38,"Khoi_","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.787","106.398","Pham Van Thanh","0.05",503,184,2,2.6,14.3
+"520",184,6,"2015-12-05","VN","","minh_khoi.le@syngenta.com","",38,"Khoi_","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.787","106.398","Pham Van Thanh","0.05",504,184,3,2.5,15
+"521",185,6,"2015-12-05","VN","","minh_khoi.le@syngenta.com","",38,"Khoi4","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.793","106.384","Nguyen Thi Thoa","0.09",505,185,1,2.2,13.5
+"522",185,6,"2015-12-05","VN","","minh_khoi.le@syngenta.com","",38,"Khoi4","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.793","106.384","Nguyen Thi Thoa","0.09",506,185,2,2.3,14
+"523",185,6,"2015-12-05","VN","","minh_khoi.le@syngenta.com","",38,"Khoi4","Lam Hamlet, Minh Duc cummune","Tu Ky","VN-61","20.793","106.384","Nguyen Thi Thoa","0.09",507,185,3,2.3,14
