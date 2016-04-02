@@ -1,7 +1,7 @@
 library(SYT.SKEP)
 # First login
 
-SKEPdb <- loginSKEP("sjaisong", "MovingProton1")
+SKEPdb <- loginSKEP("sjaisong", "sj41S0nG#")
 
 #### Form1 Data ####
 # 2. get Field Data
@@ -66,4 +66,5 @@ filepath <- file.path("C:", "Users", "sjaisong", "Google Drive", "surveySKEP1", 
 save(FieldData, FertilizerData, PestManagementData, YieldData, InjuriesData, SystemicData, WeedData,
      active_ingr, cem_type, crop_estab_type, rice_var_type, season_type, soil_prop_type, water_status_type, weed_list, dev_stage, weed_mgnt_type, weed_type,
      file = filepath)
+#load(filepath)
 

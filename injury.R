@@ -1,5 +1,21 @@
-Inj <- Inj[!(Inj$nt == 0),]
-temp <- Inj %>% select(id_main, visit, dev_stage, sample, nt, np, nl, 
+# ============ leaf and tiller injury Synthesis ==============
+source("C:\\Users\\sjaisong\\Documents\\GitHub\\SKEP2DB\\function_audpc.R")
+#100: Fully mature
+
+InjuriesData <- InjuriesData[!(InjuriesData$nt == 0),] # because of data set have 10 sampling
+
+
+# select the one field for test.
+
+#Inj <- head(Inj, 24)
+
+names(InjuriesData) <- c("id_ci", "id_main", "date", "visit", "WS", "LDG", "crop_info", "dev_stage", "sample", "nt",
+                "np", "nl", "SNL", "RT", "DH", "SS", "WH", "PM", "RB", "RTH",
+                "LF", "LM", "RH", "WM", "BLB", "BLS", "BS", "LB", "LS", "NBS",
+                "RS", "DP", "FS", "NB", "SHB", "SHR", "BKN", "BRD", "RGB", "SR")
+
+
+Injury.synthesis <- InjuriesData %>% select(id_main, visit, dev_stage, sample, nt, np, nl, 
                           SNL, RT, DH, SS, WH, PM, RB, RTH, LF, LM, RH, WM, BLB, BLS, BS, LB, LS, NBS, RS, DP, FS, NB, SHB, SHR, BKN, BRD, RGB, SR) %>% 
         mutate(DVS = ifelse(visit == 1, 40, 90), 
                nlt = nl*nt,
@@ -30,9 +46,8 @@ temp <- Inj %>% select(id_main, visit, dev_stage, sample, nt, np, nl,
                BS.percent = BS/nlt*100, # Percent of Brown Spot in one hill
                LB.percent = LB/nlt*100, # Percent of leaf Blight in one hill
                NBS.percent = NBS/nlt*100, # Percent of Narrow brown spot in one hill
-               RS.percent = RS/nlt*100 # Percent of Red stripe in one hill
-        ) %>%
-        group_by(id_main, visit, DVS) %>%
+               RS.percent = RS/nlt*100 # Percent of Red stripe in one hill 
+               ) %>% group_by(id_main, DVS) %>%
         summarise(m.SNL = mean(SNL.percent),
                   m.RT = mean(RT.percent),
                   m.DH = mean(DH.percent),
@@ -59,19 +74,7 @@ temp <- Inj %>% select(id_main, visit, dev_stage, sample, nt, np, nl,
                   m.BS = mean(BS.percent),
                   m.LB = mean(LB.percent),
                   m.NBS = mean(NBS.percent),
-                  m.RS = mean(RS.percent))
-                  
- temp <- temp  %>% as.data.frame()
- temp$id_main <- as.factor(temp$id_main)
- temp$DVS <- as.numeric(temp$DVS)
- aggregate()
- temp <- temp %>% group_by(id_main) %>% summarise(LF = audpc(m.LF, DVS))
-
-temp <- as.data.frame(temp[complete.cases(temp),])
-temp %>% summarise(LF = audpc(m.LF, DVS))            
-                
-                
-                
+                  m.RS = mean(RS.percent)) %>% group_by(id_main) %>% summarise(
                 max.SNL = max(m.SNL),
                   max.RT = max(m.RT),
                   max.RH = max(m.DH),
@@ -84,15 +87,20 @@ temp %>% summarise(LF = audpc(m.LF, DVS))
                   max.NB = max(m.NB),
                   max.RGB = max(m.RGB),
                   max.SR = max(m.SR),
-                  audpc.RTH = audpc(m.RTH, DVS),
-                  audpc.LF = audpc(m.LF, DVS),
-                  audpc.LM = audpc(m.LM, DVS),
-                  audpc.LS = audpc(m.LS, DVS),
-                  audpc.WM = audpc(m.WM, DVS),
-                  audpc.BLB = audpc(m.BLB, DVS),
-                  audpc.BLS = audpc(m.BLS, DVS),
-                  audpc.BS = audpc(m.BS, DVS),
-                  audpc.LB = audpc(m.LB, DVS),
-                  audpc.NBS = audpc(m.NBS, DVS),
-                  audpc.RS = audpc(m.RS, DVS)
+                  audpc.RTH = sum(m.RTH)*25,
+                  audpc.LF = sum(m.LF)*25,
+                  audpc.LM = sum(m.LM)*25,
+                  audpc.LS = sum(m.LS)*25,
+                  audpc.WM = sum(m.WM)*25,
+                  audpc.BLB = sum(m.BLB)*25,
+                  audpc.BLS = sum(m.BLS)*25,
+                  audpc.BS = sum(m.BS)*25,
+                  audpc.LB = sum(m.LB)*25,
+                  audpc.NBS = sum(m.NBS)*25,
+                  audpc.RS = sum(m.RS)*25
         )
+
+
+#Incom_inju <- Injury.synthesis[!complete.cases(Injury.synthesis),]
+
+#Field_incom_inj <- left_join(Incom_inju, FieldData, by = c("id_main" = "id"))
