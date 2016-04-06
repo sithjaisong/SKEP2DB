@@ -9,13 +9,13 @@ InjuriesData <- InjuriesData[!(InjuriesData$nt == 0),] # because of data set hav
 
 #Inj <- head(Inj, 24)
 
-names(InjuriesData) <- c("id_ci", "id_main", "date", "visit", "WS", "LDG", "crop_info", "dev_stage", "sample", "nt",
+names(InjuriesData) <- c("id_ic", "id_main", "date", "visit", "WS", "LDG", "crop_info", "dev_stage", "sample", "nt",
                 "np", "nl", "SNL", "RT", "DH", "SS", "WH", "PM", "RB", "RTH",
                 "LF", "LM", "RH", "WM", "BLB", "BLS", "BS", "LB", "LS", "NBS",
                 "RS", "DP", "FS", "NB", "SHB", "SHR", "BKN", "BRD", "RGB", "SR")
 
 
-Injury.synthesis <- InjuriesData %>% select(id_main, visit, dev_stage, sample, nt, np, nl, 
+Injury.synthesis <- InjuriesData %>% select(id_ic, id_main, visit, dev_stage, sample, nt, np, nl, 
                           SNL, RT, DH, SS, WH, PM, RB, RTH, LF, LM, RH, WM, BLB, BLS, BS, LB, LS, NBS, RS, DP, FS, NB, SHB, SHR, BKN, BRD, RGB, SR) %>% 
         mutate(DVS = ifelse(visit == 1, 40, 90), 
                nlt = nl*nt,
@@ -47,7 +47,7 @@ Injury.synthesis <- InjuriesData %>% select(id_main, visit, dev_stage, sample, n
                LB.percent = LB/nlt*100, # Percent of leaf Blight in one hill
                NBS.percent = NBS/nlt*100, # Percent of Narrow brown spot in one hill
                RS.percent = RS/nlt*100 # Percent of Red stripe in one hill 
-               ) %>% group_by(id_main, DVS) %>%
+               ) %>% group_by(id_ic, id_main) %>%
         summarise(m.SNL = mean(SNL.percent),
                   m.RT = mean(RT.percent),
                   m.DH = mean(DH.percent),
@@ -74,7 +74,7 @@ Injury.synthesis <- InjuriesData %>% select(id_main, visit, dev_stage, sample, n
                   m.BS = mean(BS.percent),
                   m.LB = mean(LB.percent),
                   m.NBS = mean(NBS.percent),
-                  m.RS = mean(RS.percent)) %>% group_by(id_main) %>% summarise(
+                  m.RS = mean(RS.percent))%>% group_by(id_main) %>% summarise(
                 max.SNL = max(m.SNL),
                   max.RT = max(m.RT),
                   max.RH = max(m.DH),
@@ -101,6 +101,30 @@ Injury.synthesis <- InjuriesData %>% select(id_main, visit, dev_stage, sample, n
         )
 
 
+# = systemic injuries
+
+names(SystemicData) <- c("id_ic", "area", "bugburn", "hopperburn", "grassy_stunt", "ragged_stunt", "rice_tungro", "yellow_syndrome", "orange_leaf_syndrome", "southern_rice_black_streaked_dwarf_virus")
+
+Systemic.syntheis <- InjuriesData %>% select(id_ic, id_main) %>% 
+        left_join(SystemicData, by =("id_ic" = "id_ic")) %>% 
+        group_by(id_main) %>% summarise(BB = mean(bugburn),
+                                               GS = mean(grassy_stunt),
+                                               RGS = mean(ragged_stunt),
+                                               RTG = mean(rice_tungro),
+                                               YSD = mean(yellow_syndrome),
+                                               OSD = mean(orange_leaf_syndrome),
+                                               STV = mean(southern_rice_black_streaked_dwarf_virus))
+
+source("C:\\Users\\sjaisong\\Documents\\GitHub\\SKEP2DB\\3.water_status.R")
+source("C:\\Users\\sjaisong\\Documents\\GitHub\\SKEP2DB\\4.weed_rating.R")
+
+Injury_profile <- Injury.synthesis %>% 
+        left_join(Systemic.syntheis, by = ("id_main" = "id_main")) %>% 
+        left_join(water_satus, by = ("id_main" = "id_main")) %>% 
+        left_join(Weed.synthesis, by = ("is_main" = "id_main"))
+
+
 #Incom_inju <- Injury.synthesis[!complete.cases(Injury.synthesis),]
 
 #Field_incom_inj <- left_join(Incom_inju, FieldData, by = c("id_main" = "id"))
+ 

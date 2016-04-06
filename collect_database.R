@@ -34,6 +34,10 @@ SystemicData <- getSystemicData(SKEPdb)
 
 WeedData <- getWeedData(SKEPdb)
 
+# 9. Weed rating
+
+Weedrating <- getWeedratingData(SKEPdb)
+
 
 # table 1
 active_ingr <- collect(tbl(SKEPdb, "active_ingr"))

@@ -1,37 +1,75 @@
+id_info <- Farmer_info %>% select(id, country, year_season, tropical_season)
 
-temp <- PestManagementData %>% filter(id %in% p.key) %>% select(id, apply.x, wm_method,  id_act_ingr.x, devel_stage.x, mix_type.x, id_pest, id_act_ingr.y, pest_type, apply.y, devel_stage.y, days_applied, mix_type.y, id_fungicide, apply)
+temp <- PestManagementData %>% select(id, apply.x, wm_method,  id_act_ingr.x, devel_stage.x, mix_type.x, id_pest, id_act_ingr.y, pest_type, apply.y, devel_stage.y, days_applied, mix_type.y, id_fungicide, apply)
+
+# weed manangement
+weedMang <- PestManagementData %>% select(id, apply.x, wm_method,  id_act_ingr.x, devel_stage.x, mix_type.x)
+
+weedMang <- weedMang[!duplicated(weedMang), ]
+
+weedMang <- left_join(weedMang, active_ingr, by = c("id_act_ingr.x" = "id_act_ingr")) %>% select(id, wm_method, active_ingr, devel_stage.x, mix_type.x)
+
+weedMang <- weedMang[!is.na(weedMang$wm_method), ]
+
+weedMang[is.na(weedMang$active_ingr), "active_ingr"] <- "Hand-weeding"
+
+weedMang <-  weedMang %>% 
+        left_join(id_info, by = "id") %>%
+        left_join(dev_stage, by = c("devel_stage.x" = "id_dev_stage")) %>%
+        select(id,country, year_season, tropical_season, active_ingr, dev_stage_code)
 
 
-weedMang <- PestManagementData %>% filter(id %in% p.key) %>% select(id, apply.x, wm_method,  id_act_ingr.x, devel_stage.x, mix_type.x)
+weedMang %>% filter(country == "VN") %>% str()
 
-insectMang <-  PestManagementData %>% filter(id %in% p.key) %>% select(id, apply.y, id_act_ingr.y, devel_stage.y, mix_type.y)
+weedMang %>%
+        filter(!herb == "0", !level == "NA" ) %>%
+        group_by(location, year, season, herb, wmg.dvs, level, nofarmers) %>%        
+        summarise(n.herb.app = n()) %>%
+        mutate(freq = n.herb.app/nofarmers) %>%ggplot(., aes(x= herb, y = freq, fill = herb)) + 
+        geom_bar(stat = "identity") + 
+        facet_grid(level ~ wmg.dvs, scale = "free" , space ="free") + 
+        ylim(0,1) + 
+        ggtitle(paste("Herbicide Application in", country, "from Survey Data \nin", sseason, "2013 to 2014", sep = " ")) + mytheme + xlab(" Herbicide") + ylab("No. Applications Normalized by No. Farmers/Group\n (applications/season)") + scale_fill_brewer(palette= "Set3", name = "Active ingredient")# +  theme(legend.position = "right")
 
 
-insectMang <-  PestManagementData %>% filter(id == 19) %>% select(id, apply.y, id_act_ingr.y, devel_stage.y, mix_type.y)
+
+
+
+
+
+
+
+
+
+
+# insecticide application
+insectMang <-  PestManagementData %>% select(id, apply.y, id_act_ingr.y, devel_stage.y, mix_type.y)
+
+#insectMang <-  PestManagementData %>% filter(id == 19) %>% select(id, apply.y, id_act_ingr.y, devel_stage.y, mix_type.y)
  
 # remove the dplicate row
 insectMang <- insectMang[!duplicated(insectMang), ]
 
-temp <- left_join(insectMang, active_ingr, by = c("id_act_ingr.y" = "id_act_ingr")) %>% select(id, devel_stage.y, active_ingr, mix_type.y)
+Chem_app <- left_join(insectMang, active_ingr, by = c("id_act_ingr.y" = "id_act_ingr")) %>% select(id, pest_type, active_ingr, devel_stage.y, mix_type.y)
 
 
-temp2 <- temp %>% filter(mix_type.y == 2)
+# pest_type == 3 is molluscicide
+mollusicide <- Chem_app %>% filter(pest_type == 3)
 
-temp3 <- paste(temp2[, "active_ingr"], sep = ",")
+insecticide <- Chem_app %>% filter(pest_type == 6)
 
-temp3
-%>% group_by(devel_stage.y) %>% 
-        
-        
-        
-        dat = data.frame(title = c("title1", "title2", "title3"),
-                         author = c("author1", "author2", "author3"),
-                         customerID = c(1, 2, 1))
+fungicide <- Chem_app %>% filter(pest_type == 7)
 
-aggregate(dat[-3], by=list(dat$customerID), c)
+temp2 <- fungicide %>% filter(mix_type.y == 3)
 
-aggregate(temp2$active_ingr, by=list(temp2$mix_type.y), e)
+temp3 <- temp2 %>% group_by(id, devel_stage.y) %>% summarise(fre = n())
 
+ifpaste(temp2[, "active_ingr"], sep = ",")
+
+#temp3
+#%>% group_by(devel_stage.y) %>% 
+
+# weed 
 
 
         
