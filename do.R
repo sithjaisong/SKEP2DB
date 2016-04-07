@@ -1,12 +1,15 @@
 
-
+library(dplyr)
 source("C:\\Users\\sjaisong\\Documents\\GitHub\\SKEP2DB\\collect_database.R")
 
 source("C:\\Users\\sjaisong\\Documents\\GitHub\\SKEP2DB\\1.farm_info.R")
+#source("1.farm_info.R")
 
 source("C:\\Users\\sjaisong\\Documents\\GitHub\\SKEP2DB\\5.fert_data.R")
+#source("5.fert_data.R")
 
 source("C:\\Users\\sjaisong\\Documents\\GitHub\\SKEP2DB\\2.injury_profile.R")
+#source("2.injury_profile.R")
 
 # the final data is "survey" dataset     
 survey <- left_join(Farmer_info, Fert_synthesis, by = c("id" = "id")) %>% left_join( Injury_profile, by = c("id" = "id_main"))

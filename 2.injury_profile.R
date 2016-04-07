@@ -1,5 +1,5 @@
 # ============ leaf and tiller injury Synthesis ==============
-source("C:\\Users\\sjaisong\\Documents\\GitHub\\SKEP2DB\\function_audpc.R")
+#source("C:\\Users\\sjaisong\\Documents\\GitHub\\SKEP2DB\\function_audpc.R")
 #100: Fully mature
 
 InjuriesData <- InjuriesData[!(InjuriesData$nt == 0),] # because of data set have 10 sampling
@@ -115,8 +115,8 @@ Systemic.syntheis <- InjuriesData %>% select(id_ic, id_main) %>%
                                                OSD = mean(orange_leaf_syndrome),
                                                STV = mean(southern_rice_black_streaked_dwarf_virus))
 
-source("C:\\Users\\sjaisong\\Documents\\GitHub\\SKEP2DB\\3.water_status.R")
-source("C:\\Users\\sjaisong\\Documents\\GitHub\\SKEP2DB\\4.weed_rating.R")
+source("3.water_status.R")
+source("4.weed_rating.R")
 
 Injury_profile <- Injury.synthesis %>% 
         left_join(Systemic.syntheis, by = ("id_main" = "id_main")) %>% 
