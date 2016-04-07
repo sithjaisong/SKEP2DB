@@ -1,6 +1,4 @@
-library(dplyr)
-library(magrittr)
-# delete sample data
+
 
 source("C:\\Users\\sjaisong\\Documents\\GitHub\\SKEP2DB\\collect_database.R")
 
@@ -25,3 +23,8 @@ survey[survey$province == "IN-TN", ]$prod_env <- "Tamil_Nadu"
 survey[survey$province == "TH-15", ]$prod_env <- "Central_Plain"
 survey[survey$province == "TH-72", ]$prod_env <- "Central_Plain"
 survey[survey$province == "VN-61", ]$prod_env <- "Red_river_delta"
+
+survey[survey$season == "D", ]$season <- "dry_season"
+survey[survey$season == "W", ]$season <- "wet_season"
+
+

@@ -1,4 +1,5 @@
-id_info <- Farmer_info %>% select(id, country, year_season, tropical_season)
+library(ggplot2)
+id_info <- survey %>% select(id, country, year, season)
 
 temp <- PestManagementData %>% select(id, apply.x, wm_method,  id_act_ingr.x, devel_stage.x, mix_type.x, id_pest, id_act_ingr.y, pest_type, apply.y, devel_stage.y, days_applied, mix_type.y, id_fungicide, apply)
 
@@ -16,11 +17,11 @@ weedMang[is.na(weedMang$active_ingr), "active_ingr"] <- "Hand-weeding"
 weedMang <-  weedMang %>% 
         left_join(id_info, by = "id") %>%
         left_join(dev_stage, by = c("devel_stage.x" = "id_dev_stage")) %>%
-        select(id,country, year_season, tropical_season, active_ingr, dev_stage_code)
+        select(id, country, year, season, active_ingr, dev_stage_code)
 
 weedMang <- weedMang %>% transform(country = as.factor(country),
-                        year_season = as.factor(year_season),
-                       tropical_season = as.factor(tropical_season),
+                        year_season = as.factor(year),
+                       tropical_season = as.factor(season),
                        active_ingr = as.factor(active_ingr),
                        dev_stage_code = as.factor(dev_stage_code))
 
@@ -29,14 +30,20 @@ weedMang$dev_stage_code <- factor(weedMang$dev_stage_code, levels = c("SO","TR",
 weedMang$no_farmer <- 15
 
 #test <- weedMang %>% group_by(country, year_season, tropical_season) %>% mutate(no_farmer = n()) %>% arrange(country, year_season, tropical_season)
+source("C:\\Users\\sjaisong\\Documents\\GitHub\\SKEP2DB\\mytheme.R")
 
-weedMang %>%
-        group_by(country, year_season, tropical_season, active_ingr, dev_stage_code) %>%        
-        mutate(n.herb.app = n(), freq = n.herb.app/no_farmer) %>% filter(country == "VN") %>%
+weed_TH <- weedMang %>%
+        group_by(country, year) %>% 
+        mutate(no_farmer = n()) %>%
+        group_by(country, year, active_ingr, dev_stage_code) %>%        
+        mutate(n.herb.app = n(), freq = n.herb.app/no_farmer) %>% 
+        filter(country == "TH") 
+
+%>%
         ggplot(., aes(x= active_ingr, y = freq, fill = active_ingr)) + 
         geom_bar(stat = "identity") + 
         mytheme +
-        facet_grid(tropical_season ~ dev_stage_code, scale = "free" , space ="free") + 
+        facet_grid( ~ dev_stage_code, scale = "free" , space ="free") + 
         ylim(0,1) + scale_fill_brewer(palette = "Dark2")
 
 
