@@ -18,27 +18,26 @@ weedMang <-  weedMang %>%
         left_join(dev_stage, by = c("devel_stage.x" = "id_dev_stage")) %>%
         select(id,country, year_season, tropical_season, active_ingr, dev_stage_code)
 
+weedMang <- weedMang %>% transform(country = as.factor(country),
+                        year_season = as.factor(year_season),
+                       tropical_season = as.factor(tropical_season),
+                       active_ingr = as.factor(active_ingr),
+                       dev_stage_code = as.factor(dev_stage_code))
 
-weedMang %>% filter(country == "VN") %>% str()
+weedMang$dev_stage_code <- factor(weedMang$dev_stage_code, levels = c("SO","TR","ET", "AT", "MT", "PI", "SD","ME","HD","AR","HA"))
+
+weedMang$no_farmer <- 15
+
+#test <- weedMang %>% group_by(country, year_season, tropical_season) %>% mutate(no_farmer = n()) %>% arrange(country, year_season, tropical_season)
 
 weedMang %>%
-        filter(!herb == "0", !level == "NA" ) %>%
-        group_by(location, year, season, herb, wmg.dvs, level, nofarmers) %>%        
-        summarise(n.herb.app = n()) %>%
-        mutate(freq = n.herb.app/nofarmers) %>%ggplot(., aes(x= herb, y = freq, fill = herb)) + 
+        group_by(country, year_season, tropical_season, active_ingr, dev_stage_code) %>%        
+        mutate(n.herb.app = n(), freq = n.herb.app/no_farmer) %>% filter(country == "VN") %>%
+        ggplot(., aes(x= active_ingr, y = freq, fill = active_ingr)) + 
         geom_bar(stat = "identity") + 
-        facet_grid(level ~ wmg.dvs, scale = "free" , space ="free") + 
-        ylim(0,1) + 
-        ggtitle(paste("Herbicide Application in", country, "from Survey Data \nin", sseason, "2013 to 2014", sep = " ")) + mytheme + xlab(" Herbicide") + ylab("No. Applications Normalized by No. Farmers/Group\n (applications/season)") + scale_fill_brewer(palette= "Set3", name = "Active ingredient")# +  theme(legend.position = "right")
-
-
-
-
-
-
-
-
-
+        mytheme +
+        facet_grid(tropical_season ~ dev_stage_code, scale = "free" , space ="free") + 
+        ylim(0,1) + scale_fill_brewer(palette = "Dark2")
 
 
 
