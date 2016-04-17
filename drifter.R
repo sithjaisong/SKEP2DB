@@ -3,7 +3,7 @@ id_info <- survey %>% select(id, prod_env, year, season, farmer_type, no_farmer)
 
 #temp <- PestManagementData %>% select(id, apply.x, wm_method,  id_act_ingr.x, devel_stage.x, mix_type.x, id_pest, id_act_ingr.y, pest_type, apply.y, devel_stage.y, days_applied, mix_type.y, id_fungicide, apply)
 
-n <- 5
+n <- 1
 
 # ======================= Weed manangement =============================
 
@@ -23,14 +23,13 @@ weedMang <-  weedMang %>%
         select(id, prod_env, year, season, farmer_type , no_farmer, active_ingr, dev_stage_code)
 
 weedMang <- weedMang %>% transform(prod_env = as.factor(prod_env),
-                        year = as.factor(year),
-                       season = as.factor(season),
-                       farmer_type = as.factor(farmer_type),
-                       active_ingr = as.factor(active_ingr),
-                       dev_stage_code = as.factor(dev_stage_code))
+                                   year = as.factor(year),
+                                   season = as.factor(season),
+                                   farmer_type = as.factor(farmer_type),
+                                   active_ingr = as.factor(active_ingr),
+                                   dev_stage_code = as.factor(dev_stage_code))
 
 weedMang$dev_stage_code <- factor(weedMang$dev_stage_code, levels = c("SO","TR","ET", "AT", "MT", "PI", "SD","ME","HD","AR","HA"))
-
 weedMang$farmer_type <- factor(weedMang$farmer_type, levels = c("adopter", "majority", "drifter"))
 
 #weedMang$no_farmer <- 15
@@ -55,7 +54,8 @@ weed_x <- weedMang %>%
         group_by(prod_env, farmer_type) %>%
         mutate(no_fre_ftype = n()) %>%
         group_by(prod_env, farmer_type, active_ingr, dev_stage_code) %>%        
-        mutate(n.herb.app = n(), freq_ftype = n.herb.app/no_fre_ftype)
+        mutate(n.herb.app = n(), freq_ftype = n.herb.app/no_fre_ftype) %>%
+        filter(farmer_type == farmer_type.name[n])
 
 weed_x[!duplicated(weed_x[, c("prod_env","farmer_type", "active_ingr", "dev_stage_code")]), ] %>%
         ggplot(., aes(x= active_ingr, y = freq_ftype, fill = active_ingr))+ 
@@ -72,7 +72,7 @@ weed_x[!duplicated(weed_x[, c("prod_env","farmer_type", "active_ingr", "dev_stag
 PestMang <-  PestManagementData %>% select(id, apply.y, id_act_ingr.y, devel_stage.y, mix_type.y)
 
 #insectMang <-  PestManagementData %>% filter(id == 19) %>% select(id, apply.y, id_act_ingr.y, devel_stage.y, mix_type.y)
- 
+
 # remove the dplicate row
 PestMang <- PestMang[!duplicated(PestMang), ] %>% left_join(id_info, by = "id") %>%
         left_join(dev_stage, by = c("devel_stage.y" = "id_dev_stage")) %>%
@@ -107,7 +107,7 @@ fungicide <- PestMang %>% filter(pest_type == 7) %>%
         group_by(prod_env, farmer_type, active_ingr, dev_stage_code) %>%        
         mutate(n.fungi.app = n(), freq_ftype = n.fungi.app/no_fre_ftype)
 
-fungicide[!duplicated(fungicide[, c("prod_env","farmer_type", "active_ingr", "dev_stage_code")]), ] %>% ggplot(., aes(x= active_ingr, y = freq_ftypeby, fill = active_ingr))+ 
+fungicide[!duplicated(fungicide[, c("prod_env","farmer_type", "active_ingr", "dev_stage_code")]), ] %>% ggplot(., aes(x= active_ingr, y = freq_ftype, fill = active_ingr))+ 
         geom_bar(stat = "identity") + 
         mytheme +
         facet_grid(farmer_type ~ dev_stage_code, scale = "free" , space ="free") + 
@@ -127,5 +127,5 @@ fungicide[!duplicated(fungicide[, c("prod_env","farmer_type", "active_ingr", "de
 # weed 
 
 
-        
+
 

@@ -1,15 +1,15 @@
 
 library(dplyr)
-source("C:\\Users\\sjaisong\\Documents\\GitHub\\SKEP2DB\\collect_database.R")
+library(ggplot2)
+library(reshape)
+library(reshape2)
+source("collect_database.R")
 
-source("C:\\Users\\sjaisong\\Documents\\GitHub\\SKEP2DB\\1.farm_info.R")
-#source("1.farm_info.R")
+source("1.farm_info.R")
 
-source("C:\\Users\\sjaisong\\Documents\\GitHub\\SKEP2DB\\5.fert_data.R")
-#source("5.fert_data.R")
+source("5.fert_data.R")
 
-source("C:\\Users\\sjaisong\\Documents\\GitHub\\SKEP2DB\\2.injury_profile.R")
-#source("2.injury_profile.R")
+source("2.injury_profile.R")
 
 # the final data is "survey" dataset     
 survey <- left_join(Farmer_info, Fert_synthesis, by = c("id" = "id")) %>% left_join( Injury_profile, by = c("id" = "id_main"))
@@ -21,7 +21,7 @@ names(survey) <- c("id", "date", "country", "year", "season", "Fno", "village", 
 
 survey$prod_env <- "na"
 survey[survey$province == "ID-JB", ]$prod_env <- "West_Java"
-survey[survey$province == "IN-OR", ]$prod_env <- "Ordisha"
+survey[survey$province == "IN-OR", ]$prod_env <- "Odisha"
 survey[survey$province == "IN-TN", ]$prod_env <- "Tamil_Nadu"
 survey[survey$province == "TH-15", ]$prod_env <- "Central_Plain"
 survey[survey$province == "TH-72", ]$prod_env <- "Central_Plain"
@@ -29,5 +29,19 @@ survey[survey$province == "VN-61", ]$prod_env <- "Red_river_delta"
 
 survey[survey$season == "D", ]$season <- "dry_season"
 survey[survey$season == "W", ]$season <- "wet_season"
+
+survey$farmer_type <- "na"
+survey[survey$yield > 6000,]$farmer_type <- "adopter"
+survey[survey$yield >= 4000 & survey$yield <= 6000,]$farmer_type <- "majority"
+survey[survey$yield < 4000,]$farmer_type <- "drifter"
+
+survey[is.na(survey) ] <- 0
+
+survey <- survey %>% group_by(prod_env, season, year) %>% mutate(no_farmer = n())
+
+prod_env.name <- c("West_Java", "Odisha", "Tamil_Nadu", "Central_Plain", "Red_river_delta" )
+
+farmer_type.name <- c("drifter", "majority", "adopter")
+survey$farmer_type <- factor(survey$farmer_type, levels = c("adopter", "majority", "drifter"))
 
 

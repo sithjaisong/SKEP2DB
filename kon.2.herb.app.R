@@ -86,3 +86,6 @@ sseason <- ifelse(sseason == "Dry season", "ds",
 #filename <- paste0("pic/kon/",country,".",sseason,".","herbcide.png")
 #ggsave(filename, height = 10, width = 14, dpi = 300)
 
+
+Farmer_info_vn <- Farmer %>% left_join(weedMang, by = c("id" ="id")) %>% left_join(insecticide, by = c("id" = "id")) %>% left_join(fungicide, by = c("id" = "id"))
+

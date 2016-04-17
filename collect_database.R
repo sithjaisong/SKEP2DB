@@ -1,4 +1,6 @@
 library(SYT.SKEP)
+library(reshape)
+library(reshape2)
 # First login
 
 SKEPdb <- loginSKEP("sjaisong", "sj41S0nG#")
@@ -66,11 +68,9 @@ weed_type <- collect(tbl(SKEPdb, "weed_type"))
 
 # 9.Save in Rdata
 filepath <- file.path("C:", "Users", "sjaisong", "Google Drive", "surveySKEP1", "SKEP2database.RData" )
-filepath <- file.path("~","Google Drive", "surveySKEP1", "SKEP2database.RData") # for Mac
+#filepath <- file.path("~","Google Drive", "surveySKEP1", "SKEP2database.RData") # for Mac
 
-save(FieldData, FertilizerData, PestManagementData, YieldData, InjuriesData, SystemicData, WeedData,
-     active_ingr, cem_type, crop_estab_type, rice_var_type, season_type, soil_prop_type, water_status_type, weed_list, dev_stage, weed_mgnt_type, weed_type, Weedrating,
-     file = filepath)
+save(FieldData, FertilizerData, PestManagementData, YieldData, InjuriesData, SystemicData, WeedData, active_ingr, cem_type, crop_estab_type, rice_var_type, season_type, soil_prop_type, water_status_type, weed_list, dev_stage, weed_mgnt_type, weed_type, Weedrating,file = filepath)
 
-load(filepath)
+#load(filepath)
 
