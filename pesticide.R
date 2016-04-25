@@ -3,8 +3,6 @@ id_info <- survey %>% select(id, prod_env, year, season, farmer_type, no_farmer)
 
 #temp <- PestManagementData %>% select(id, apply.x, wm_method,  id_act_ingr.x, devel_stage.x, mix_type.x, id_pest, id_act_ingr.y, pest_type, apply.y, devel_stage.y, days_applied, mix_type.y, id_fungicide, apply)
 
-n <- 5
-
 # ======================= Weed manangement =============================
 
 weedMang <- PestManagementData %>% select(id, apply.x, wm_method,  id_act_ingr.x, devel_stage.x, mix_type.x)
@@ -29,7 +27,7 @@ weedMang <- weedMang %>% transform(prod_env = as.factor(prod_env),
                        active_ingr = as.factor(active_ingr),
                        dev_stage_code = as.factor(dev_stage_code))
 
-weedMang$dev_stage_code <- factor(weedMang$dev_stage_code, levels = c("SO","TR","ET", "AT", "MT", "PI", "SD","ME","HD","AR","HA"))
+weedMang$dev_stage_code <- factor(weedMang$dev_stage_code, levels = c("PW", "PD", "LV", "SO","TR","ET", "AT", "MT", "PI", "PF", "SD", "ME", "HD", "AR", "HA"))
 
 weedMang$farmer_type <- factor(weedMang$farmer_type, levels = c("adopter", "majority", "drifter"))
 
@@ -50,19 +48,25 @@ source("mytheme.R")
 #         group_by(prod_env, year, active_ingr, dev_stage_code) %>%        
 #         mutate(n.herb.app = n(), freq_total = n.herb.app/total_farmer)
 
+# select the production environment 1 to 5 as the below
+# 1."West_Java"
+# 2."Odisha"
+# 3."Tamil_Nadu"
+# 4."Central_Plain" 
+# 5. "Red-river_delta"
 weed_x <- weedMang %>% 
-        filter(prod_env == prod_env.name[n]) %>%
-        group_by(prod_env, farmer_type) %>%
+        filter(prod_env == prod_env.name[5]) %>%
+        group_by(season, farmer_type) %>%
         mutate(no_fre_ftype = n()) %>%
-        group_by(prod_env, farmer_type, active_ingr, dev_stage_code) %>%        
+        group_by(season, farmer_type, active_ingr, dev_stage_code) %>%        
         mutate(n.herb.app = n(), freq_ftype = n.herb.app/no_fre_ftype)
 
-weed_x[!duplicated(weed_x[, c("prod_env","farmer_type", "active_ingr", "dev_stage_code")]), ] %>%
+weed_x[!duplicated(weed_x[, c("prod_env", "season", "farmer_type", "active_ingr", "dev_stage_code")]), ] %>%
         ggplot(., aes(x= active_ingr, y = freq_ftype, fill = active_ingr))+ 
         geom_bar(stat = "identity") + 
         mytheme +
-        facet_grid(farmer_type ~ dev_stage_code, scale = "free" , space ="free") + 
-        ylim(0,1) + scale_fill_brewer(palette = "Dark2") + ylab("Frequency") + xlab("Active ingredient")
+        facet_grid(season ~ dev_stage_code, scale = "free" , space ="free") + 
+        ylim(0, 1) + ylab("Proportion") + xlab("Active ingredient")
 
 #========================= Insecticide ================================= 
 
@@ -86,34 +90,46 @@ PestMang$farmer_type <- factor(PestMang$farmer_type, levels = c("adopter", "majo
 #mollusicide <- PestMang %>% filter(pest_type == 3)
 
 insecticide <- PestMang %>% filter(pest_type == 6) %>%
-        filter(prod_env == prod_env.name[n]) %>%
-        group_by(prod_env, farmer_type) %>%
+        filter(prod_env == prod_env.name[5]) %>%
+        group_by(season, farmer_type) %>%
         mutate(no_fre_ftype = n()) %>%
-        group_by(prod_env, farmer_type, active_ingr, dev_stage_code) %>%        
+        group_by(season, farmer_type, active_ingr, dev_stage_code) %>%        
         mutate(n.insect.app = n(), freq_ftype = n.insect.app/no_fre_ftype)
 
-insecticide[!duplicated(insecticide[, c("prod_env","farmer_type", "active_ingr", "dev_stage_code")]), ] %>% ggplot(., aes(x= active_ingr, y = freq_ftype))+ 
+insecticide[!duplicated(insecticide[, c("prod_env", "season" ,"farmer_type", "active_ingr", "dev_stage_code")]), ] %>% ggplot(., aes(x= active_ingr, y = freq_ftype))+ 
         geom_bar(stat = "identity") + 
-        mytheme +
-        facet_grid(farmer_type ~ dev_stage_code, scale = "free" , space ="free") + 
+        theme(panel.background = element_blank(),
+              axis.text.x = element_text(size = 14, color = "black", angle = 90, hjust = 0, vjust = 1),
+              axis.title.x = element_text(size =14, color = "black", vjust = -0.5),
+              legend.position = "none", 
+              axis.title.y = element_text(size =14, color = "black", vjust = 1),
+              plot.title = element_text(size = 18, color = "black", vjust = 2.5),
+              strip.text = element_text(face = "bold", size = rel(1))
+        ) +
+        facet_grid(farmer_type*season ~ dev_stage_code, scale = "free" , space ="free") + 
         ylim(0,1)  + ylab("Frequency") + xlab("Active ingredient")
 
 
 # ==========fucgicide ===================
 fungicide <- PestMang %>% filter(pest_type == 7) %>%
-        filter(prod_env == prod_env.name[n]) %>%
-        group_by(prod_env, farmer_type) %>%
+        filter(prod_env == prod_env.name[5]) %>%
+        group_by(season, farmer_type) %>%
         mutate(no_fre_ftype = n()) %>%
-        group_by(prod_env, farmer_type, active_ingr, dev_stage_code) %>%        
+        group_by(season, farmer_type, active_ingr, dev_stage_code) %>%        
         mutate(n.fungi.app = n(), freq_ftype = n.fungi.app/no_fre_ftype)
 
-fungicide[!duplicated(fungicide[, c("prod_env","farmer_type", "active_ingr", "dev_stage_code")]), ] %>% ggplot(., aes(x= active_ingr, y = freq_ftypeby, fill = active_ingr))+ 
+fungicide[!duplicated(fungicide[, c("prod_env", "season","farmer_type", "active_ingr", "dev_stage_code")]), ] %>% ggplot(., aes(x= active_ingr, y = freq_ftype, fill = active_ingr))+ 
         geom_bar(stat = "identity") + 
-        mytheme +
-        facet_grid(farmer_type ~ dev_stage_code, scale = "free" , space ="free") + 
+        theme(panel.background = element_blank(),
+              axis.text.x = element_text(size = 14, color = "black", angle = 90, hjust = 0, vjust = 0.5),
+              axis.title.x = element_text(size =14, color = "black", vjust = -0.5),
+              legend.position = "none", 
+              axis.title.y = element_text(size =14, color = "black", vjust = 1),
+              plot.title = element_text(size = 18, color = "black", vjust = 2.5),
+              strip.text = element_text(face = "bold", size = rel(1))
+        )  +
+        facet_grid(farmer_type*season ~ dev_stage_code, scale = "free" , space ="free") + 
         ylim(0,1)  + ylab("Frequency") + xlab("Active ingredient")
-
-
 
 #temp2 <- fungicide %>% filter(mix_type.y == 3)
 
